@@ -17,7 +17,7 @@ body {
 
 #tab-contents {
     margin-top: 60px;  /* Adjust this value based on your header height */
-    width: 1200px;
+    width: 1420px;
 }
 
 .tab-header, .sub-tab-header {
@@ -45,26 +45,27 @@ body {
 }
 .grid.events {
 	grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(163, 163, 163);
     gap: 5px 5px;
+    width: 1835px;
 }
 
 .grid.orders {
+    background-color: rgb(163, 163, 163);
 }
 
 .grid.combat.s-section {
-    border: 10px;
+    background-color:green;
 }
 
 .grid.combat.t1-section {
+    background-color:yellow;
 }
 
 .grid.combat.t2-section {
+    background-color:orange;
 }
 
 .grid.combat.t3-section {
-}
-
-img {
-	width: 450px;
-	height: 630px;
+    background-color:red;
 }

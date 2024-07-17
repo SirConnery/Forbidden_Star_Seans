@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
 	const factionTabsContainer = document.getElementById('faction-tabs');
 	const tabContentsContainer = document.getElementById('tab-contents');
-
+	// Size of cards - rest is calculated just based on this.
 	const maxWidth = 450;
 	const maxHeight = 650;
+	
 	const titleFontSize = maxHeight / 20;
 	const marginWidth = maxWidth / 17.3;
 	const maxTextWidth = maxWidth - 2 * marginWidth;
@@ -16,15 +17,18 @@ document.addEventListener('DOMContentLoaded', function () {
 		fonts.forEach(font => document.fonts.add(font));
 	});
 
+	// MENU SECTION 
 	fetch('factions/file_names.json')
 		.then(response => response.json())
 		.then(data => {
 			const { factions, files } = data;
-
-			factions.forEach((faction, index) => {
+			
+			factions.folder.forEach((faction, index) => {
 				// Create faction tab header
 				const factionTabHeader = document.createElement('div');
-				factionTabHeader.textContent = faction;
+				factionTabHeader.style.fontFamily = 'HeadlinerNo45'; 
+				factionTabHeader.style.fontSize = "30px";
+				factionTabHeader.textContent = factions.name[index];
 				factionTabHeader.classList.add('tab-header');
 				if (index === 0) factionTabHeader.classList.add('active');
 				factionTabHeader.dataset.faction = faction;
@@ -42,6 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
 				subTabs.classList.add('sub-tabs');
 				['combat', 'orders', 'events'].forEach((category, catIndex) => {
 					const subTabHeader = document.createElement('div');
+					subTabHeader.style.fontFamily = 'HeadlinerNo45'; 
+					subTabHeader.style.fontSize = "25px";
 					subTabHeader.textContent = category.charAt(0).toUpperCase() + category.slice(1);
 					subTabHeader.classList.add('sub-tab-header');
 					subTabHeader.dataset.category = category;
@@ -78,14 +84,12 @@ document.addEventListener('DOMContentLoaded', function () {
 				});
 				factionTabContent.appendChild(subTabContents);
 			});
-
 			// Add click event listener to faction tabs
 			document.querySelectorAll('.tab-header').forEach(header => {
 				header.addEventListener('click', function () {
 					const faction = this.dataset.faction;
 					document.querySelectorAll('.tab-header').forEach(h => h.classList.remove('active'));
 					document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
-
 					this.classList.add('active');
 					document.getElementById(`tab-${faction}`).classList.add('active');
 				});
@@ -104,8 +108,9 @@ document.addEventListener('DOMContentLoaded', function () {
 				}
 			});
 		})
-		.catch(error => console.error('Error loading fileNames.json:', error));
+		.catch(error => console.error('Error loading file_names.json:', error));
 
+	// CREATING CONTENT FOR CANVAS
 	function createCombatContent(container, faction, files, textData) {
 		const sections = {
 			's-section': files.combat.slice(0, 5),
@@ -193,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		container.appendChild(categoryContainer);
 	}
 
-
+	// CANVAS TOOLS
 	function replaceAllShit(str) {
 		str = str.replace(/\[B\]/g, "}");
 		str = str.replace(/\[S\]/g, "{");
@@ -230,6 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		return returnHeight;
 	};
 
+	// DRAWING CANVAS SECTION
 	function drawCombatCard(data, ctx) {
 		const bottomImageheight = maxHeight / 40;
 		const maxFieldsHeight = maxHeight / 2.5;
