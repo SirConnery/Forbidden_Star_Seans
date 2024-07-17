@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 			sections[section].forEach((file, idx) => {
 				const jsonData = {};
-				jsonData["picture"] = `factions/${faction}/combat/${file}`;
+				jsonData["picture"] = `factions/${faction}/Combat/${file}`;
 				jsonData["title"] = `${titles[section][idx]}`;
 				jsonData["background"] = `${generalText[section][idx]}`;
 				jsonData["foreground"] = `${unitText[section][idx]}`;
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		files['orders'].forEach((file, idx) => {
 
 			const jsonData = {};
-			jsonData["picture"] = `factions/${faction}/orders/${file}`;
+			jsonData["picture"] = `factions/${faction}/Orders/${file}`;
 			jsonData["title"] = `${textData.ordersText.title[idx]}`;
 			jsonData["general"] = `${textData.ordersText.general[idx]}`;
 			const canvas = document.createElement('canvas');
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		categoryContainer.classList.add('grid', 'events');
 		files['events'].forEach((file, idx) => {
 			const jsonData = {};
-			jsonData["picture"] = `factions/${faction}/events/${file}`;
+			jsonData["picture"] = `factions/${faction}/Events/${file}`;
 			jsonData["title"] = `${textData.eventsText.title[idx]}`;
 			jsonData["general"] = `${textData.eventsText.general[idx]}`;
 			jsonData["type"] = `${textData.eventsText.type[idx]}`;
