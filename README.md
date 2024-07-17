@@ -8,9 +8,10 @@ This repository contains the code for a webpage dedicated to displaying the expa
 * Custom fonts for card text rendering
 * Responsive design for optimal viewing
 
-## Installation
+## Usage
 
-To set up the project locally it's either use xampp or go to gitlab link.
+* To set up the project locally it's either use xampp or different local server.
+* Use this link: <a>https://frytkownica.github.io/page/</a>
 
 ## Usage
 Start your local server to serve the project files.
