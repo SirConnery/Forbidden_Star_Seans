@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	const marginWidth = maxWidth / 17.3;
 	const maxTextWidth = maxWidth - 2 * marginWidth;
 
-	const headlinerFont = new FontFace('HeadlinerNo45', 'url(fonts/HeadlinerNo.45.ttf)');
-	const forbiddenStarsFont = new FontFace('ForbiddenStars', 'url(fonts/ForbiddenStars.ttf)');
-	const frizQuadrataStd = new FontFace('FrizQuadrataStd', 'url(fonts/FrizQuadrataStd.ttf)');
+	const headlinerFont = new FontFace('HeadlinerNo45', 'url(fonts/headlinerno45.ttf)');
+	const forbiddenStarsFont = new FontFace('ForbiddenStars', 'url(fonts/forbiddenstars.ttf)');
+	const frizQuadrataStd = new FontFace('FrizQuadrataStd', 'url(fonts/frizquadratastd.ttf)');
 
 	Promise.all([headlinerFont.load(), forbiddenStarsFont.load(), frizQuadrataStd.load()]).then(fonts => {
 		fonts.forEach(font => document.fonts.add(font));
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 			sections[section].forEach((file, idx) => {
 				const jsonData = {};
-				jsonData["picture"] = `factions/${faction}/Combat/${file}`;
+				jsonData["picture"] = `factions/${faction}/combat/${file}`;
 				jsonData["title"] = `${titles[section][idx]}`;
 				jsonData["background"] = `${generalText[section][idx]}`;
 				jsonData["foreground"] = `${unitText[section][idx]}`;
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		files['orders'].forEach((file, idx) => {
 
 			const jsonData = {};
-			jsonData["picture"] = `factions/${faction}/Orders/${file}`;
+			jsonData["picture"] = `factions/${faction}/orders/${file}`;
 			jsonData["title"] = `${textData.ordersText.title[idx]}`;
 			jsonData["general"] = `${textData.ordersText.general[idx]}`;
 			const canvas = document.createElement('canvas');
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		categoryContainer.classList.add('grid', 'events');
 		files['events'].forEach((file, idx) => {
 			const jsonData = {};
-			jsonData["picture"] = `factions/${faction}/Events/${file}`;
+			jsonData["picture"] = `factions/${faction}/events/${file}`;
 			jsonData["title"] = `${textData.eventsText.title[idx]}`;
 			jsonData["general"] = `${textData.eventsText.general[idx]}`;
 			jsonData["type"] = `${textData.eventsText.type[idx]}`;
@@ -247,9 +247,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		const foreground = new Image();
 		const bottomImage = new Image();
 		picture.src = data.picture;
-		background.src = 'Pictures/background.png';
-		foreground.src = 'Pictures/foreground.png';
-		bottomImage.src = 'Pictures/bottom.png';
+		background.src = 'pictures/background.png';
+		foreground.src = 'pictures/foreground.png';
+		bottomImage.src = 'pictures/bottom.png';
 
 		picture.onload = () => {
 			// Draw the main picture resized
