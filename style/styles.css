@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#faction-tabs {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: left;
+}
+
+#tab-contents {
+    margin-top: 60px;  /* Adjust this value based on your header height */
+    width: 1200px;
+}
+
+.tab-header, .sub-tab-header {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ddd;
+    margin-right: 5px;
+}
+.tab-header.active, .sub-tab-header.active {
+    background-color: #bbb;
+}
+.tab-content, .sub-tab-content {
+    display: none;
+}
+.tab-content.active, .sub-tab-content.active {
+    display: block;
+}
+.grid {
+	display: grid;
+	gap: 20px 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+
+}
+.grid.events {
+	grid-template-columns: repeat(4, 1fr);
+    gap: 5px 5px;
+}
+
+.grid.orders {
+}
+
+.grid.combat.s-section {
+    border: 10px;
+}
+
+.grid.combat.t1-section {
+}
+
+.grid.combat.t2-section {
+}
+
+.grid.combat.t3-section {
+}
+
+img {
+	width: 450px;
+	height: 630px;
+}

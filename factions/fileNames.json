@@ -1,0 +1,8 @@
+{
+  "factions": ["AdeptaSororitas", "AdeptusMechanicus"],
+  "files": {
+    "combat": ["S1.jpg", "S2.jpg", "S3.jpg", "S4.jpg", "S5.jpg", "T0_1.jpg", "T0_2.jpg", "T0_3.jpg", "T0_4.jpg", "T2_1.jpg", "T2_2.jpg", "T2_3.jpg", "T3_1.jpg", "T3_2.jpg"],
+    "orders": ["O_1.jpg", "O_2.jpg", "O_3.jpg", "O_4.jpg", "O_5.jpg"],
+    "events": ["E_1.jpg", "E_2.jpg", "E_3.jpg", "E_4.jpg", "E_5.jpg", "E_6.jpg" , "E_7.jpg", "E_8.jpg"]
+  }
+}
