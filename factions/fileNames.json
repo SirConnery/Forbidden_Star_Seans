@@ -1,8 +1,8 @@
 {
-  "factions": ["AdeptaSororitas", "AdeptusMechanicus"],
+  "factions": ["adepta_sororitas", "AdeptusMechanicus"],
   "files": {
-    "combat": ["S1.jpg", "S2.jpg", "S3.jpg", "S4.jpg", "S5.jpg", "T0_1.jpg", "T0_2.jpg", "T0_3.jpg", "T0_4.jpg", "T2_1.jpg", "T2_2.jpg", "T2_3.jpg", "T3_1.jpg", "T3_2.jpg"],
-    "orders": ["O_1.jpg", "O_2.jpg", "O_3.jpg", "O_4.jpg", "O_5.jpg"],
-    "events": ["E_1.jpg", "E_2.jpg", "E_3.jpg", "E_4.jpg", "E_5.jpg", "E_6.jpg" , "E_7.jpg", "E_8.jpg"]
+    "combat": ["s1.jpg", "s2.jpg", "s3.jpg", "s4.jpg", "s5.jpg", "t0_1.jpg", "t0_2.jpg", "t0_3.jpg", "t0_4.jpg", "t2_1.jpg", "t2_2.jpg", "t2_3.jpg", "t3_1.jpg", "t3_2.jpg"],
+    "orders": ["o_1.jpg", "o_2.jpg", "o_3.jpg", "o_4.jpg", "o_5.jpg"],
+    "events": ["e_1.jpg", "e_2.jpg", "e_3.jpg", "e_4.jpg", "e_5.jpg", "e_6.jpg" , "e_7.jpg", "e_8.jpg"]
   }
 }
