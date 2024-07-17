@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		fonts.forEach(font => document.fonts.add(font));
 	});
 
-	fetch('factions/fileNames.json')
+	fetch('factions/file_names.json')
 		.then(response => response.json())
 		.then(data => {
 			const { factions, files } = data;
