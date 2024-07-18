@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Size of cards - rest is calculated just based on this.
 	const maxWidth = 450;
 	const maxHeight = 650;
+
+	//Size of boxes for combat cards.
 	const textBackgroundSize = 759;
 	const textBottomBarHeight = 18;
 	const textBottomBarWidth = 454;
@@ -223,6 +225,10 @@ document.addEventListener('DOMContentLoaded', function () {
 				returnHeight += lineHeight + interline;
 				line = '';
 			}
+			else if (words[n] === "*newpara*") {
+				returnHeight += 2 * lineHeight;
+				line = '';
+			}
 			else {
 				const testLine = line + words[n] + ' ';
 				const metrics = context.measureText(testLine);
@@ -314,6 +320,11 @@ document.addEventListener('DOMContentLoaded', function () {
 					yPosition += lineHeight + interline;
 					line = '';
 				}
+				else if (words[n] === "*newpara*") {
+					ctx.fillText(line, marginWidth, yPosition);
+					yPosition += 2 * lineHeight;
+					line = '';
+				}
 				else {
 					const testLine = line + words[n] + ' ';
 					const metrics = ctx.measureText(testLine);
@@ -395,6 +406,10 @@ document.addEventListener('DOMContentLoaded', function () {
 				if (words[n] === "*newline*") {
 					ctx.fillText(line, maxWidth / 2, yPosition);
 					yPosition += lineHeight + interline;
+					line = '';
+				}
+				else if (words[n] === "*newpara*") {
+					returnHeight += 2 * lineHeight;
 					line = '';
 				}
 				else {
