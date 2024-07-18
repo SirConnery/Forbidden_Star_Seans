@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'HeadlinerNo45';
+    src: url('../fonts/headlinerno45.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ForbiddenStars';
+    src: url('../fonts/forbiddenstars.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FrizQuadrataStd';
+    src: url('../fonts/frizquadratastd.ttf') format('truetype');
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,9 +22,8 @@ body {
 #faction-tabs {
     width: 100%;
     position: fixed;
-    top: 0;
     background-color: white;
-    padding: 10px 0;
+    padding: 10px;
     z-index: 1000;
     display: flex;
     justify-content: left;
@@ -21,14 +35,21 @@ body {
 }
 
 .tab-header, .sub-tab-header {
+    font-family: 'HeadlinerNo45';
+    font-size: 30px;
     cursor: pointer;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     background-color: #ddd;
     margin-right: 5px;
 }
+.sub-tab-header
+{
+    margin-bottom: 30px;
+}
 .tab-header.active, .sub-tab-header.active {
-    background-color: #bbb;
+    background-color: #fff;
+    box-shadow: 0 0 30px #f80;
 }
 .tab-content, .sub-tab-content {
     display: none;
@@ -41,7 +62,6 @@ body {
 	gap: 20px 20px;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
-
 }
 .grid.events {
 	grid-template-columns: repeat(4, 1fr);
@@ -51,21 +71,22 @@ body {
 }
 
 .grid.orders {
-    background-color: rgb(163, 163, 163);
+    background-color: #aaa;
 }
 
 .grid.combat.s-section {
-    background-color:green;
+    background-color: #090;
 }
 
 .grid.combat.t1-section {
-    background-color:yellow;
+    background-color: #990;
 }
 
 .grid.combat.t2-section {
-    background-color:orange;
+    background-color:#950;
 }
 
 .grid.combat.t3-section {
-    background-color:red;
+    background-color: #900;
 }
+

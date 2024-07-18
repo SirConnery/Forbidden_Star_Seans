@@ -14,14 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	const marginWidth = maxWidth * 0.0578;
 	const maxTextWidth = maxWidth - 2 * marginWidth;
 
-	const headlinerFont = new FontFace('HeadlinerNo45', 'url(fonts/headlinerno45.ttf)');
-	const forbiddenStarsFont = new FontFace('ForbiddenStars', 'url(fonts/forbiddenstars.ttf)');
-	const frizQuadrataStd = new FontFace('FrizQuadrataStd', 'url(fonts/frizquadratastd.ttf)');
-
-	Promise.all([headlinerFont.load(), forbiddenStarsFont.load(), frizQuadrataStd.load()]).then(fonts => {
-		fonts.forEach(font => document.fonts.add(font));
-	});
-
 	// MENU SECTION 
 	fetch('factions/file_names.json')
 		.then(response => response.json())
@@ -31,8 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			factions.folder.forEach((faction, index) => {
 				// Create faction tab header
 				const factionTabHeader = document.createElement('div');
-				factionTabHeader.style.fontFamily = 'HeadlinerNo45';
-				factionTabHeader.style.fontSize = "30px";
+
 				factionTabHeader.textContent = factions.name[index];
 				factionTabHeader.classList.add('tab-header');
 				if (index === 0) factionTabHeader.classList.add('active');
@@ -51,8 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
 				subTabs.classList.add('sub-tabs');
 				['combat', 'orders', 'events'].forEach((category, catIndex) => {
 					const subTabHeader = document.createElement('div');
-					subTabHeader.style.fontFamily = 'HeadlinerNo45';
-					subTabHeader.style.fontSize = "25px";
 					subTabHeader.textContent = category.charAt(0).toUpperCase() + category.slice(1);
 					subTabHeader.classList.add('sub-tab-header');
 					subTabHeader.dataset.category = category;
