@@ -243,7 +243,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			const img = new Image();
 			img.onload = () => resolve(img);
 			img.onerror = () => reject(new Error('Failed to load image'));
-			img.src = `${url}?cb=${new Date().getTime()}`;
+			// img.src = `${url}?cb=${new Date().getTime()}`;
+			img.src = url;
 		});
 	}
 
@@ -368,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		ctx.font = `${titleFontSize}px HeadlinerNo45`;
 		ctx.textAlign = "center";
 		ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
-		
+
 		// Initial settings for margin and font size
 		let generalTextHeight = 0;
 
