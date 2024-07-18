@@ -1,7 +1,7 @@
 {
   "factions": {
-    "folder" : ["adepta_sororitas", "adeptus_mechanicus"],
-    "name" : ["Adepta Sororitas", "Adeptus Mechanicus"]
+    "folder" : ["adepta_sororitas", "adeptus_mechanicus", "empty"],
+    "name" : ["Adepta Sororitas", "Adeptus Mechanicus", "Example"]
   } ,
 
   "files": {
