@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	const textBottomBarHeight = 18;
 	const textBottomBarWidth = 454;
 
-	const titleFontSize = maxHeight / 20;
-	const marginWidth = maxWidth / 17.3;
+	const titleFontSize = maxHeight * 0.05;
+	const marginWidth = maxWidth * 0.0578;
 	const maxTextWidth = maxWidth - 2 * marginWidth;
 
 	const headlinerFont = new FontFace('HeadlinerNo45', 'url(fonts/headlinerno45.ttf)');
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		// Draw the Title
 		ctx.font = `${titleFontSize}px HeadlinerNo45`;
-		ctx.fillText(data.title, maxWidth / 4, maxHeight / 13);
+		ctx.fillText(data.title, maxWidth * 0.25, maxHeight * 0.077);
 
 		if (data.background.length > 0) {
 			const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
@@ -366,11 +366,12 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function drawOrderCard(data, ctx) {
-		const maxFieldsHeight = maxHeight / 2.2;
-		const textPosition = maxHeight / 1.85;
-		const marginOrderWidth = maxHeight / 10;
-		let interline = maxHeight / 130;
-		let fontSize = maxHeight / 33;
+		const maxFieldsHeight = maxHeight * 0.455;
+		const textPosition = maxHeight * 0.54;
+		const marginOrderWidth = maxHeight * 0.1;
+
+		let interline = maxHeight * 0.0077;
+		let fontSize = maxHeight * 0.03;
 
 		// Load images from paths
 		const picture = new Image();
@@ -387,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		const resizeAllShit = () => {
 			fontSize *= 0.95;
-			interline *= 0.9;
+			interline *= 0.97;
 			recalculateTextHeight();
 		};
 
@@ -404,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			yPosition += lineHeight;
 			for (let n = 0; n < words.length; n++) {
 				if (words[n] === "*newline*") {
-					ctx.fillText(line, maxWidth / 2, yPosition);
+					ctx.fillText(line, maxWidth * 0.5, yPosition);
 					yPosition += lineHeight + interline;
 					line = '';
 				}
@@ -416,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					const testLine = line + words[n] + ' ';
 					const metrics = ctx.measureText(testLine);
 					if (metrics.width > maxWidth - 2 * marginOrderWidth && n > 0) {
-						ctx.fillText(line, maxWidth / 2, yPosition);
+						ctx.fillText(line, maxWidth * 0.5, yPosition);
 						yPosition += lineHeight + interline;
 						line = words[n] + ' ';
 					} else {
@@ -424,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					};
 				};
 			};
-			ctx.fillText(line, maxWidth / 2, yPosition);
+			ctx.fillText(line, maxWidth * 0.5, yPosition);
 		};
 
 		// Draw the main picture resized
@@ -434,18 +435,18 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Draw the Title
 			ctx.font = `${titleFontSize}px HeadlinerNo45`;
 			ctx.textAlign = "center";
-			ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
+			ctx.fillText(data.title, maxWidth * 0.5, maxHeight * 0.2325);
 
 			drawText(generalTextWithFbElements, textPosition);
 		};
 	}
 
 	function drawEventCard(data, ctx) {
-		const maxFieldsHeight = maxHeight / 3.6;
-		const textPosition = maxHeight / 1.46;
+		const maxFieldsHeight = maxHeight * 0.278;
+		const textPosition = maxHeight * 0.685;
 
-		let interline = maxHeight / 130;
-		let fontSize = maxHeight / 33;
+		let interline = maxHeight * 0.0077;
+		let fontSize = maxHeight * 0.03;
 
 		// Load images from paths
 		const picture = new Image();
@@ -462,7 +463,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		const resizeAllShit = () => {
 			fontSize *= 0.95;
-			interline *= 0.9;
+			interline *= 0.97;
 			recalculateTextHeight()
 		};
 
@@ -504,10 +505,10 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Draw the Title
 			ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
 			ctx.textAlign = "center";
-			ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
+			ctx.fillText(data.type, maxWidth * 0.5, maxHeight * 0.573);
 			ctx.font = `${titleFontSize}px HeadlinerNo45`;
 			ctx.textAlign = "left";
-			ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
+			ctx.fillText(data.title, maxWidth  * 0.05, maxHeight * 0.0735);
 
 			drawText(generalTextWithFbElements, textPosition);
 		};
