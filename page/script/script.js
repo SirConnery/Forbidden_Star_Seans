@@ -238,16 +238,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		return returnHeight;
 	};
 
-	async function loadImage(url) {
-		return await new Promise((resolve, reject) => {
-			const img = new Image();
-			img.onload = () => resolve(img);
-			img.onerror = () => reject(new Error('Failed to load image'));
-			// img.src = `${url}?cb=${new Date().getTime()}`;
-			img.src = url;
-		});
-	};
-
 	// DRAWING CANVAS SECTION
 	function drawCombatCard(data, ctx) {
 		const bottomImageheight = maxHeight / 40;
@@ -260,13 +250,26 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = loadImage(data.picture);
-		const background = loadImage('pictures/background.png');
-		const foreground = loadImage('pictures/foreground.png');
-		const bottomImage = loadImage('pictures/bottom.png');
+		// const picture = await loadImage(data.picture);
+		// const background = await loadImage('pictures/background.png');
+		// const foreground = await loadImage('pictures/foreground.png');
+		// const bottomImage = await loadImage('pictures/bottom.png');
 
+		// Load images
+		const picture = new Image();
+		const background = new Image();
+		const foreground = new Image();
+		const bottomImage = new Image();
+		picture.src = data.picture;
+		background.src = 'pictures/background.png';
+		foreground.src = 'pictures/foreground.png';
+		bottomImage.src = 'pictures/bottom.png';
+
+		picture.onload = function() {
+			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		 };
 		// Draw the main picture resized											 
-		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+
 
 		// Draw the Title
 		ctx.font = `${titleFontSize}px HeadlinerNo45`;
@@ -341,15 +344,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		if (data.background.length > 0) {
 			const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
-			drawImageCropped(background, backgroundY);
+			picture.bottomImage = function() {
+				drawImageCropped(background, backgroundY);
+			};
 			drawText(backgroundWithFbElements, backgroundY, extraBackgroundborder);
 		}
 		if (data.foreground.length > 0) {
 			const foregroundY = maxHeight - (foregroundTextHeight + extraForegroundTriangle * 0.35);
-			drawImageCropped(foreground, foregroundY);
+			picture.bottomImage = function() {
+				drawImageCropped(foreground, foregroundY);
+			};
 			drawText(foregroundWithFbElements, foregroundY, extraForegroundTriangle);
 		}
-		ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
+		picture.bottomImage = function() {
+			ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
+		};
+		
 	}
 
 	function drawOrderCard(data, ctx) {
@@ -360,10 +370,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = loadImage(data.picture);
+		const picture = new Image();
+		picture.src = data.picture;
 
 		// Draw the main picture resized
-		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		picture.onload = function() {
+			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		 };
 
 		// Draw the Title
 		ctx.font = `${titleFontSize}px HeadlinerNo45`;
@@ -427,10 +440,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = loadImage(data.picture);
+		const picture = new Image();
+		picture.src = data.picture;
 
 		// Draw the main picture resized
-		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		picture.onload = function() {
+			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		 };
 
 		// Draw the Title
 		ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
