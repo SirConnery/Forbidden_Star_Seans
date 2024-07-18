@@ -238,8 +238,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		return returnHeight;
 	};
 
+
+	function loadImage(url) {
+		return new Promise((resolve, reject) => {
+			const img = new Image();
+			img.onload = () => resolve(img);
+			img.onerror = () => reject(new Error('Failed to load image'));
+			// img.src = `${url}?cb=${new Date().getTime()}`;
+			img.src = url;
+		});
+	};
+
 	// DRAWING CANVAS SECTION
-	function drawCombatCard(data, ctx) {
+	async function drawCombatCard(data, ctx) {
 		const bottomImageheight = maxHeight / 40;
 		const maxFieldsHeight = maxHeight / 2.5;
 		const extraForegroundTriangle = maxHeight / 22;
@@ -250,30 +261,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		// const picture = await loadImage(data.picture);
-		// const background = await loadImage('pictures/background.png');
-		// const foreground = await loadImage('pictures/foreground.png');
-		// const bottomImage = await loadImage('pictures/bottom.png');
-
-		// Load images
-		const picture = new Image();
-		const background = new Image();
-		const foreground = new Image();
-		const bottomImage = new Image();
-		picture.src = data.picture;
-		background.src = 'pictures/background.png';
-		foreground.src = 'pictures/foreground.png';
-		bottomImage.src = 'pictures/bottom.png';
-
-		picture.onload = function() {
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
-		 };
-		// Draw the main picture resized											 
-
-
-		// Draw the Title
-		ctx.font = `${titleFontSize}px HeadlinerNo45`;
-		ctx.fillText(data.title, maxWidth / 4, maxHeight / 13);
+		const picture = await loadImage(data.picture);
+		const background = await loadImage('pictures/background.png');
+		const foreground = await loadImage('pictures/foreground.png');
+		const bottomImage = await loadImage('pictures/bottom.png');
 
 		// Initial settings for margin and font size
 		let backgroundTextHeight = 0;
@@ -337,29 +328,32 @@ document.addEventListener('DOMContentLoaded', function () {
 			};
 			ctx.fillText(line, marginWidth, yPosition);
 		};
-
 		const drawImageCropped = (img, height) => {
-			ctx.drawImage(img, 0, 0, 759, maxHeight - height, 0, height, maxWidth, maxHeight - height);
+			ctx.drawImage(img, 0, 0, textBackgroundSize, maxHeight - height, 0, height, maxWidth, maxHeight - height);
 		};
+
+
+
+		// Draw the main picture resized		
+		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+
+		// Draw the Title
+		ctx.font = `${titleFontSize}px HeadlinerNo45`;
+		ctx.fillText(data.title, maxWidth / 4, maxHeight / 13);
 
 		if (data.background.length > 0) {
 			const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
-			picture.bottomImage = function() {
-				drawImageCropped(background, backgroundY);
-			};
+			drawImageCropped(background, backgroundY);
 			drawText(backgroundWithFbElements, backgroundY, extraBackgroundborder);
 		}
+
 		if (data.foreground.length > 0) {
 			const foregroundY = maxHeight - (foregroundTextHeight + extraForegroundTriangle * 0.35);
-			picture.bottomImage = function() {
-				drawImageCropped(foreground, foregroundY);
-			};
+			drawImageCropped(foreground, foregroundY);
 			drawText(foregroundWithFbElements, foregroundY, extraForegroundTriangle);
 		}
-		picture.bottomImage = function() {
-			ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
-		};
-		
+		ctx.drawImage(bottomImage, 0, 0, textBottomBarWidth, textBottomBarHeight, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
+
 	}
 
 	function drawOrderCard(data, ctx) {
@@ -372,16 +366,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Load images from paths
 		const picture = new Image();
 		picture.src = data.picture;
-
-		// Draw the main picture resized
-		picture.onload = function() {
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
-		 };
-
-		// Draw the Title
-		ctx.font = `${titleFontSize}px HeadlinerNo45`;
-		ctx.textAlign = "center";
-		ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
 
 		// Initial settings for margin and font size
 		let generalTextHeight = 0;
@@ -429,7 +413,18 @@ document.addEventListener('DOMContentLoaded', function () {
 			};
 			ctx.fillText(line, maxWidth / 2, yPosition);
 		};
-		drawText(generalTextWithFbElements, textPosition);
+
+		// Draw the main picture resized
+		picture.onload = function () {
+			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+
+			// Draw the Title
+			ctx.font = `${titleFontSize}px HeadlinerNo45`;
+			ctx.textAlign = "center";
+			ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
+
+			drawText(generalTextWithFbElements, textPosition);
+		};
 	}
 
 	function drawEventCard(data, ctx) {
@@ -442,19 +437,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Load images from paths
 		const picture = new Image();
 		picture.src = data.picture;
-
-		// Draw the main picture resized
-		picture.onload = function() {
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
-		 };
-
-		// Draw the Title
-		ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
-		ctx.textAlign = "center";
-		ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
-		ctx.font = `${titleFontSize}px HeadlinerNo45`;
-		ctx.textAlign = "left";
-		ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
 
 		// Initial settings for margin and font size
 		let generalTextHeight = 0;
@@ -502,6 +484,19 @@ document.addEventListener('DOMContentLoaded', function () {
 			};
 			ctx.fillText(line, marginWidth, yPosition);
 		};
-		drawText(generalTextWithFbElements, textPosition);
+		// Draw the main picture resized
+		picture.onload = function () {
+			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+
+			// Draw the Title
+			ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
+			ctx.textAlign = "center";
+			ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
+			ctx.font = `${titleFontSize}px HeadlinerNo45`;
+			ctx.textAlign = "left";
+			ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
+
+			drawText(generalTextWithFbElements, textPosition);
+		};
 	};
 });
