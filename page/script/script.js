@@ -258,17 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		let marginHeight = maxWidth / 15;
 		let fontSize = maxHeight / 33;
 
-		// Load images
-		// const picture = new Image();
-		// const background = new Image();
-		// const foreground = new Image();
-		// const bottomImage = new Image();
-		// picture.src = data.picture;
-		// background.src = 'pictures/background.png';
-		// foreground.src = 'pictures/foreground.png';
-		// bottomImage.src = 'pictures/bottom.png';
-		
-		// Images Paths
+		// Load images from paths
 		const picture = await loadImage(data.picture);
 		const background = await loadImage('pictures/background.png');
 		const foreground = await loadImage('pictures/foreground.png');
@@ -361,150 +351,140 @@ document.addEventListener('DOMContentLoaded', function () {
 		ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
 	}
 
-
-	function drawOrderCard(data, ctx) {
+	async function drawOrderCard(data, ctx) {
 		const maxFieldsHeight = maxHeight / 2.2;
 		const textPosition = maxHeight / 1.85;
 		const marginOrderWidth = maxHeight / 10;
 		let interline = maxHeight / 130;
 		let fontSize = maxHeight / 33;
 
-		// Load images
-		const picture = new Image();
-		picture.src = data.picture;
+		// Load images from paths
+		const picture = await loadImage(data.picture);
 
-		picture.onload = () => {
-			// Draw the main picture resized
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		// Draw the main picture resized
+		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
 
-			// Draw the Title
-			ctx.font = `${titleFontSize}px HeadlinerNo45`;
-			ctx.textAlign = "center";
-			ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
-			//ctx.textAlign = "left";
+		// Draw the Title
+		ctx.font = `${titleFontSize}px HeadlinerNo45`;
+		ctx.textAlign = "center";
+		ctx.fillText(data.title, maxWidth / 2, maxHeight / 4.3);
+		
+		// Initial settings for margin and font size
+		let generalTextHeight = 0;
 
-			// Initial settings for margin and font size
-			let generalTextHeight = 0;
+		data.general = replaceForbiddenStarsElements(data.general)
 
-			data.general = replaceForbiddenStarsElements(data.general)
+		const recalculateTextHeight = () => {
+			generalTextHeight = calculateTextHeight(ctx, data.general, 0, marginOrderWidth, interline, fontSize);
+		};
 
-			const recalculateTextHeight = () => {
-				generalTextHeight = calculateTextHeight(ctx, data.general, 0, marginOrderWidth, interline, fontSize);
-			};
+		const resizeAllShit = () => {
+			fontSize *= 0.95;
+			interline *= 0.9;
+			recalculateTextHeight();
+		};
 
-			const resizeAllShit = () => {
-				fontSize *= 0.95;
-				interline *= 0.9;
-				recalculateTextHeight();
-			};
+		recalculateTextHeight()
+		while (generalTextHeight > maxFieldsHeight) {
+			resizeAllShit();
+		};
 
-			recalculateTextHeight()
-			while (generalTextHeight > maxFieldsHeight) {
-				resizeAllShit();
-			};
-
-			const drawText = (text, yPosition) => {
-				ctx.font = `${fontSize}px ForbiddenStars`;
-				const words = text.split(' ');
-				let line = '';
-				let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
-				yPosition += lineHeight;
-				for (let n = 0; n < words.length; n++) {
-					if (words[n] === "*newline*") {
+		const drawText = (text, yPosition) => {
+			ctx.font = `${fontSize}px ForbiddenStars`;
+			const words = text.split(' ');
+			let line = '';
+			let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
+			yPosition += lineHeight;
+			for (let n = 0; n < words.length; n++) {
+				if (words[n] === "*newline*") {
+					ctx.fillText(line, maxWidth / 2, yPosition);
+					yPosition += lineHeight + interline;
+					line = '';
+				}
+				else {
+					const testLine = line + words[n] + ' ';
+					const metrics = ctx.measureText(testLine);
+					if (metrics.width > maxWidth - 2 * marginOrderWidth && n > 0) {
 						ctx.fillText(line, maxWidth / 2, yPosition);
 						yPosition += lineHeight + interline;
-						line = '';
-					}
-					else {
-						const testLine = line + words[n] + ' ';
-						const metrics = ctx.measureText(testLine);
-						if (metrics.width > maxWidth - 2 * marginOrderWidth && n > 0) {
-							ctx.fillText(line, maxWidth / 2, yPosition);
-							yPosition += lineHeight + interline;
-							line = words[n] + ' ';
-						} else {
-							line = testLine;
-						};
+						line = words[n] + ' ';
+					} else {
+						line = testLine;
 					};
 				};
-				ctx.fillText(line, maxWidth / 2, yPosition);
 			};
-			drawText(data.general, textPosition);
+			ctx.fillText(line, maxWidth / 2, yPosition);
 		};
+		drawText(data.general, textPosition);
 	}
 
-	function drawEventCard(data, ctx) {
+	async function drawEventCard(data, ctx) {
 		const maxFieldsHeight = maxHeight / 3.6;
 		const textPosition = maxHeight / 1.46;
 
 		let interline = maxHeight / 130;
 		let fontSize = maxHeight / 33;
 
-		// Load images
-		const picture = new Image();
-		picture.src = data.picture;
+		// Load images from paths
+		const picture = await loadImage(data.picture);
 
-		picture.onload = () => {
-			// Draw the main picture resized
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		// Draw the main picture resized
+		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
 
-			// Draw the Title
-			ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
-			ctx.textAlign = "center";
-			ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
-			ctx.font = `${titleFontSize}px HeadlinerNo45`;
-			ctx.textAlign = "left";
-			ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
+		// Draw the Title
+		ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
+		ctx.textAlign = "center";
+		ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
+		ctx.font = `${titleFontSize}px HeadlinerNo45`;
+		ctx.textAlign = "left";
+		ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
 
+		// Initial settings for margin and font size
+		let generalTextHeight = 0;
 
+		data.general = replaceForbiddenStarsElements(data.general);
 
-			// Initial settings for margin and font size
-			let generalTextHeight = 0;
+		const recalculateTextHeight = () => {
+			generalTextHeight = calculateTextHeight(ctx, data.general, 0, 0, interline, fontSize);
+		};
 
-			data.general = replaceForbiddenStarsElements(data.general);
-
-			const recalculateTextHeight = () => {
-				generalTextHeight = calculateTextHeight(ctx, data.general, 0, 0, interline, fontSize);
-			};
-
-			const resizeAllShit = () => {
-				fontSize *= 0.95;
-				interline *= 0.9;
-				recalculateTextHeight()
-			};
-
+		const resizeAllShit = () => {
+			fontSize *= 0.95;
+			interline *= 0.9;
 			recalculateTextHeight()
-			while (generalTextHeight > maxFieldsHeight) {
-				resizeAllShit();
-			};
+		};
 
-			const drawText = (text, yPosition) => {
-				ctx.font = `${fontSize}px ForbiddenStars`;
-				const words = text.split(' ');
-				let line = '';
-				let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
-				yPosition += lineHeight;
-				for (let n = 0; n < words.length; n++) {
-					if (words[n] === "*newline*") {
+		recalculateTextHeight()
+		while (generalTextHeight > maxFieldsHeight) {
+			resizeAllShit();
+		};
+
+		const drawText = (text, yPosition) => {
+			ctx.font = `${fontSize}px ForbiddenStars`;
+			const words = text.split(' ');
+			let line = '';
+			let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
+			yPosition += lineHeight;
+			for (let n = 0; n < words.length; n++) {
+				if (words[n] === "*newline*") {
+					ctx.fillText(line, marginWidth, yPosition);
+					yPosition += lineHeight + interline;
+					line = '';
+				}
+				else {
+					const testLine = line + words[n] + ' ';
+					const metrics = ctx.measureText(testLine);
+					if (metrics.width > maxWidth - 2 * marginWidth && n > 0) {
 						ctx.fillText(line, marginWidth, yPosition);
 						yPosition += lineHeight + interline;
-						line = '';
-					}
-					else {
-						const testLine = line + words[n] + ' ';
-						const metrics = ctx.measureText(testLine);
-						if (metrics.width > maxWidth - 2 * marginWidth && n > 0) {
-							ctx.fillText(line, marginWidth, yPosition);
-							yPosition += lineHeight + interline;
-							line = words[n] + ' ';
-						} else {
-							line = testLine;
-						};
+						line = words[n] + ' ';
+					} else {
+						line = testLine;
 					};
 				};
-				ctx.fillText(line, marginWidth, yPosition);
 			};
-			drawText(data.general, textPosition);
+			ctx.fillText(line, marginWidth, yPosition);
 		};
+		drawText(data.general, textPosition);
 	};
 });
