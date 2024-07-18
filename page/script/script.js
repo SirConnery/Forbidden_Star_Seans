@@ -332,8 +332,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			ctx.drawImage(img, 0, 0, textBackgroundSize, maxHeight - height, 0, height, maxWidth, maxHeight - height);
 		};
 
-
-
 		// Draw the main picture resized		
 		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
 
