@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Size of cards - rest is calculated just based on this.
 	const maxWidth = 450;
 	const maxHeight = 650;
-	
+	const textBackgroundSize = 759;
+	const textBottomBarHeight = 18;
+	const textBottomBarWidth = 454;
+
 	const titleFontSize = maxHeight / 20;
 	const marginWidth = maxWidth / 17.3;
 	const maxTextWidth = maxWidth - 2 * marginWidth;
@@ -22,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {
 		.then(response => response.json())
 		.then(data => {
 			const { factions, files } = data;
-			
+
 			factions.folder.forEach((faction, index) => {
 				// Create faction tab header
 				const factionTabHeader = document.createElement('div');
-				factionTabHeader.style.fontFamily = 'HeadlinerNo45'; 
+				factionTabHeader.style.fontFamily = 'HeadlinerNo45';
 				factionTabHeader.style.fontSize = "30px";
 				factionTabHeader.textContent = factions.name[index];
 				factionTabHeader.classList.add('tab-header');
@@ -46,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				subTabs.classList.add('sub-tabs');
 				['combat', 'orders', 'events'].forEach((category, catIndex) => {
 					const subTabHeader = document.createElement('div');
-					subTabHeader.style.fontFamily = 'HeadlinerNo45'; 
+					subTabHeader.style.fontFamily = 'HeadlinerNo45';
 					subTabHeader.style.fontSize = "25px";
 					subTabHeader.textContent = category.charAt(0).toUpperCase() + category.slice(1);
 					subTabHeader.classList.add('sub-tab-header');
@@ -199,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	// CANVAS TOOLS
-	function replaceAllShit(str) {
+	function replaceForbiddenStarsElements(str) {
 		str = str.replace(/\[B\]/g, "}");
 		str = str.replace(/\[S\]/g, "{");
 		str = str.replace(/\[M\]/g, "<");
@@ -235,8 +238,17 @@ document.addEventListener('DOMContentLoaded', function () {
 		return returnHeight;
 	};
 
+	function loadImage(url) {
+		return new Promise((resolve, reject) => {
+			const img = new Image();
+			img.onload = () => resolve(img);
+			img.onerror = () => reject(new Error('Failed to load image'));
+			img.src = `${url}?cb=${new Date().getTime()}`;
+		});
+	}
+
 	// DRAWING CANVAS SECTION
-	function drawCombatCard(data, ctx) {
+	async function drawCombatCard(data, ctx) {
 		const bottomImageheight = maxHeight / 40;
 		const maxFieldsHeight = maxHeight / 2.5;
 		const extraForegroundTriangle = maxHeight / 22;
@@ -246,103 +258,107 @@ document.addEventListener('DOMContentLoaded', function () {
 		let marginHeight = maxWidth / 15;
 		let fontSize = maxHeight / 33;
 
-
 		// Load images
-		const picture = new Image();
-		const background = new Image();
-		const foreground = new Image();
-		const bottomImage = new Image();
-		picture.src = data.picture;
-		background.src = 'pictures/background.png';
-		foreground.src = 'pictures/foreground.png';
-		bottomImage.src = 'pictures/bottom.png';
+		// const picture = new Image();
+		// const background = new Image();
+		// const foreground = new Image();
+		// const bottomImage = new Image();
+		// picture.src = data.picture;
+		// background.src = 'pictures/background.png';
+		// foreground.src = 'pictures/foreground.png';
+		// bottomImage.src = 'pictures/bottom.png';
+		
+		// Images Paths
+		const picture = await loadImage(data.picture);
+		const background = await loadImage('pictures/background.png');
+		const foreground = await loadImage('pictures/foreground.png');
+		const bottomImage = await loadImage('pictures/bottom.png');
 
-		picture.onload = () => {
-			// Draw the main picture resized
-			ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
+		// Draw the main picture resized											 
+		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
 
-			// Draw the Title
-			ctx.font = `${titleFontSize}px HeadlinerNo45`;
-			ctx.fillText(data.title, maxWidth / 4, maxHeight / 13);
+		// Draw the Title
+		ctx.font = `${titleFontSize}px HeadlinerNo45`;
+		ctx.fillText(data.title, maxWidth / 4, maxHeight / 13);
 
+		// Initial settings for margin and font size
+		let backgroundTextHeight = 0;
+		let foregroundTextHeight = 0;
 
-			// Initial settings for margin and font size
-			let backgroundTextHeight = 0;
-			let foregroundTextHeight = 0;
+		// Replacing all characters ForbiddenStars Related
+		data.background = replaceForbiddenStarsElements(data.background)
+		data.foreground = replaceForbiddenStarsElements(data.foreground)
 
-			data.background = replaceAllShit(data.background)
-			data.foreground = replaceAllShit(data.foreground)
-
-			const recalculateTextHeight = () => {
-				if (data.background.length > 0) {
-					backgroundTextHeight = calculateTextHeight(ctx, data.background, extraBackgroundborder, marginHeight, interline, fontSize)
-				}
-				if (data.foreground.length > 0) {
-					foregroundTextHeight = calculateTextHeight(ctx, data.foreground, extraForegroundTriangle, marginHeight, interline, fontSize)
-				}
-			}
-
-			const resizeAllShit = () => {
-				marginHeight *= 0.7;
-				fontSize *= 0.95;
-				interline *= 0.9;
-				recalculateTextHeight()
-			}
-
-			recalculateTextHeight()
-			if (data.background.length > 0 && data.foreground.length > 0) {
-				while ((backgroundTextHeight + foregroundTextHeight + marginHeight * 4) > maxFieldsHeight) {
-					resizeAllShit();
-				}
-			} else {
-				while (Math.max(backgroundTextHeight, foregroundTextHeight) + 2 * marginHeight > maxFieldsHeight) {
-					resizeAllShit();
-				}
-			}
-
-			const drawText = (text, yPosition, extra) => {
-				ctx.font = `${fontSize}px ForbiddenStars`;
-				const words = text.split(' ');
-				let line = '';
-				let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
-				yPosition += marginHeight + extra + lineHeight;
-				for (let n = 0; n < words.length; n++) {
-					if (words[n] === "*newline*") {
-						ctx.fillText(line, marginWidth, yPosition);
-						yPosition += lineHeight + interline;
-						line = '';
-					}
-					else {
-						const testLine = line + words[n] + ' ';
-						const metrics = ctx.measureText(testLine);
-						if (metrics.width > maxWidth - 2 * marginWidth && n > 0) {
-							ctx.fillText(line, marginWidth, yPosition);
-							yPosition += lineHeight + interline;
-							line = words[n] + ' ';
-						} else {
-							line = testLine;
-						}
-					}
-				}
-				ctx.fillText(line, marginWidth, yPosition);
-			};
-
-			const drawImageCropped = (img, height) => {
-				ctx.drawImage(img, 0, 0, 759, maxHeight - height, 0, height, maxWidth, maxHeight - height);
-			};
-
+		// Cards text height Declaration
+		const recalculateTextHeight = () => {
 			if (data.background.length > 0) {
-				const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
-				drawImageCropped(background, backgroundY);
-				drawText(data.background, backgroundY, extraBackgroundborder);
+				backgroundTextHeight = calculateTextHeight(ctx, data.background, extraBackgroundborder, marginHeight, interline, fontSize);
 			}
 			if (data.foreground.length > 0) {
-				const foregroundY = maxHeight - (foregroundTextHeight + extraForegroundTriangle * 0.35);
-				drawImageCropped(foreground, foregroundY);
-				drawText(data.foreground, foregroundY, extraForegroundTriangle);
+				foregroundTextHeight = calculateTextHeight(ctx, data.foreground, extraForegroundTriangle, marginHeight, interline, fontSize);
 			}
-			ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
 		};
+		recalculateTextHeight()
+
+		const resizeCardText = () => {
+			marginHeight *= 0.7;
+			fontSize *= 0.95;
+			interline *= 0.9;
+			recalculateTextHeight();
+		};
+
+		if (data.background.length > 0 && data.foreground.length > 0) {
+			while ((backgroundTextHeight + foregroundTextHeight + marginHeight * 4) > maxFieldsHeight) {
+				resizeCardText();
+			};
+		} else {
+			while (Math.max(backgroundTextHeight, foregroundTextHeight) + 2 * marginHeight > maxFieldsHeight) {
+				resizeCardText();
+			};
+		};
+
+		const drawText = (text, yPosition, extra) => {
+			ctx.font = `${fontSize}px ForbiddenStars`;
+			const words = text.split(' ');
+			let line = '';
+			let lineHeight = parseInt(ctx.font.match(/\d+/), 10);
+			yPosition += marginHeight + extra + lineHeight;
+			for (let n = 0; n < words.length; n++) {
+				if (words[n] === "*newline*") {
+					ctx.fillText(line, marginWidth, yPosition);
+					yPosition += lineHeight + interline;
+					line = '';
+				}
+				else {
+					const testLine = line + words[n] + ' ';
+					const metrics = ctx.measureText(testLine);
+					if (metrics.width > maxWidth - 2 * marginWidth && n > 0) {
+						ctx.fillText(line, marginWidth, yPosition);
+						yPosition += lineHeight + interline;
+						line = words[n] + ' ';
+					} else {
+						line = testLine;
+					};
+				};
+			};
+			ctx.fillText(line, marginWidth, yPosition);
+		};
+
+		const drawImageCropped = (img, height) => {
+			ctx.drawImage(img, 0, 0, 759, maxHeight - height, 0, height, maxWidth, maxHeight - height);
+		};
+
+		if (data.background.length > 0) {
+			const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
+			drawImageCropped(background, backgroundY);
+			drawText(data.background, backgroundY, extraBackgroundborder);
+		}
+		if (data.foreground.length > 0) {
+			const foregroundY = maxHeight - (foregroundTextHeight + extraForegroundTriangle * 0.35);
+			drawImageCropped(foreground, foregroundY);
+			drawText(data.foreground, foregroundY, extraForegroundTriangle);
+		}
+		ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
 	}
 
 
@@ -370,23 +386,23 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Initial settings for margin and font size
 			let generalTextHeight = 0;
 
-			data.general = replaceAllShit(data.general)
+			data.general = replaceForbiddenStarsElements(data.general)
 
 			const recalculateTextHeight = () => {
-				generalTextHeight = calculateTextHeight(ctx, data.general, 0, marginOrderWidth, interline, fontSize)
-			}
+				generalTextHeight = calculateTextHeight(ctx, data.general, 0, marginOrderWidth, interline, fontSize);
+			};
 
 			const resizeAllShit = () => {
 				fontSize *= 0.95;
 				interline *= 0.9;
-				recalculateTextHeight()
-			}
+				recalculateTextHeight();
+			};
 
 			recalculateTextHeight()
 			while (generalTextHeight > maxFieldsHeight) {
-					resizeAllShit();
-			}
-			
+				resizeAllShit();
+			};
+
 			const drawText = (text, yPosition) => {
 				ctx.font = `${fontSize}px ForbiddenStars`;
 				const words = text.split(' ');
@@ -395,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				yPosition += lineHeight;
 				for (let n = 0; n < words.length; n++) {
 					if (words[n] === "*newline*") {
-						ctx.fillText(line,  maxWidth / 2 , yPosition);
+						ctx.fillText(line, maxWidth / 2, yPosition);
 						yPosition += lineHeight + interline;
 						line = '';
 					}
@@ -403,15 +419,15 @@ document.addEventListener('DOMContentLoaded', function () {
 						const testLine = line + words[n] + ' ';
 						const metrics = ctx.measureText(testLine);
 						if (metrics.width > maxWidth - 2 * marginOrderWidth && n > 0) {
-							ctx.fillText(line, maxWidth / 2 , yPosition);
+							ctx.fillText(line, maxWidth / 2, yPosition);
 							yPosition += lineHeight + interline;
 							line = words[n] + ' ';
 						} else {
 							line = testLine;
-						}
-					}
-				}
-				ctx.fillText(line, maxWidth / 2 , yPosition);
+						};
+					};
+				};
+				ctx.fillText(line, maxWidth / 2, yPosition);
 			};
 			drawText(data.general, textPosition);
 		};
@@ -435,7 +451,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Draw the Title
 			ctx.font = `${titleFontSize * 0.8}px FrizQuadrataStd`;
 			ctx.textAlign = "center";
-			ctx.fillText(data.type,  maxWidth / 2, maxHeight / 1.745);
+			ctx.fillText(data.type, maxWidth / 2, maxHeight / 1.745);
 			ctx.font = `${titleFontSize}px HeadlinerNo45`;
 			ctx.textAlign = "left";
 			ctx.fillText(data.title, maxWidth / 20, maxHeight / 13.6);
@@ -445,23 +461,23 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Initial settings for margin and font size
 			let generalTextHeight = 0;
 
-			data.general = replaceAllShit(data.general)
+			data.general = replaceForbiddenStarsElements(data.general);
 
 			const recalculateTextHeight = () => {
-				generalTextHeight = calculateTextHeight(ctx, data.general, 0, 0, interline, fontSize)
-			}
+				generalTextHeight = calculateTextHeight(ctx, data.general, 0, 0, interline, fontSize);
+			};
 
 			const resizeAllShit = () => {
 				fontSize *= 0.95;
 				interline *= 0.9;
 				recalculateTextHeight()
-			}
+			};
 
 			recalculateTextHeight()
 			while (generalTextHeight > maxFieldsHeight) {
-					resizeAllShit();
-			}
-			
+				resizeAllShit();
+			};
+
 			const drawText = (text, yPosition) => {
 				ctx.font = `${fontSize}px ForbiddenStars`;
 				const words = text.split(' ');
@@ -483,15 +499,12 @@ document.addEventListener('DOMContentLoaded', function () {
 							line = words[n] + ' ';
 						} else {
 							line = testLine;
-						}
-					}
-				}
+						};
+					};
+				};
 				ctx.fillText(line, marginWidth, yPosition);
 			};
 			drawText(data.general, textPosition);
-
 		};
-	}
-
+	};
 });
-
