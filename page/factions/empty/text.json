@@ -1,0 +1,100 @@
+{
+	"combatText": {
+		"title": [
+			"title_1",
+			"title_2",
+			"title_3",
+			"title_4",
+			"title_5",
+			"title_6",
+			"title_7",
+			"title_8",
+			"title_9",
+			"title_10",
+			"title_11",
+			"title_12",
+			"title_13",
+			"title_14"
+		],
+		"general": [
+			"general_1",
+			"general_2",
+			"general_3",
+			"general_4",
+			"general_5",
+			"general_6",
+			"general_7",
+			"general_8",
+			"general_9",
+			"general_10",
+			"general_11",
+			"general_12",
+			"general_13",
+			"general_14"
+		],
+		"unit": [
+			"unit_1",
+			"unit_2",
+			"unit_3",
+			"unit_4",
+			"unit_5",
+			"unit_6",
+			"unit_7",
+			"unit_8",
+			"unit_9",
+			"unit_10",
+			"unit_11",
+			"unit_12",
+			"unit_13",
+			"unit_14"
+		]
+	},
+	"ordersText": {
+		"title": [
+			"title_1",
+			"title_2",
+			"title_3",
+			"title_4",
+			"title_5"
+		],
+		"general": [
+			"general_1",
+			"general_2",
+			"general_3",
+			"general_4",
+			"general_5"
+		]
+	},
+	"eventsText": {
+		"title": [
+			"title_1",
+			"title_2",
+			"title_3",
+			"title_4",
+			"title_5",
+			"title_6",
+			"title_7",
+			"title_8"
+		],
+		"general": [
+			"general_1",
+			"general_2",
+			"general_3",
+			"general_4",
+			"general_5",
+			"general_6",
+			"general_7",
+			"general_8"
+		],
+		"type": [
+			"SCHEME",
+			"SCHEME",
+			"SCHEME",
+			"SCHEME",
+			"TACTIC",
+			"TACTIC",
+			"TACTIC",
+			"TACTIC"
+		]
+	}
+}
