@@ -239,17 +239,20 @@ document.addEventListener('DOMContentLoaded', function () {
 	};
 
 	function loadImage(url) {
-		return new Promise((resolve, reject) => {
-			const img = new Image();
-			img.onload = () => resolve(img);
-			img.onerror = () => reject(new Error('Failed to load image'));
-			// img.src = `${url}?cb=${new Date().getTime()}`;
-			img.src = url;
-		});
+		return await loadAsyncImage(url)
 	}
+	
+	async function loadAsyncImage(url) {
+	return new Promise((resolve, reject) => {
+		const img = new Image();
+		img.onload = () => resolve(img);
+		img.onerror = () => reject(new Error('Failed to load image'));
+		// img.src = `${url}?cb=${new Date().getTime()}`;
+		img.src = url;
+	});
 
 	// DRAWING CANVAS SECTION
-	async function drawCombatCard(data, ctx) {
+	function drawCombatCard(data, ctx) {
 		const bottomImageheight = maxHeight / 40;
 		const maxFieldsHeight = maxHeight / 2.5;
 		const extraForegroundTriangle = maxHeight / 22;
@@ -260,10 +263,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = await loadImage(data.picture);
-		const background = await loadImage('pictures/background.png');
-		const foreground = await loadImage('pictures/foreground.png');
-		const bottomImage = await loadImage('pictures/bottom.png');
+		const picture = loadImage(data.picture);
+		const background = loadImage('pictures/background.png');
+		const foreground = loadImage('pictures/foreground.png');
+		const bottomImage = loadImage('pictures/bottom.png');
 
 		// Draw the main picture resized											 
 		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
@@ -352,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
 	}
 
-	async function drawOrderCard(data, ctx) {
+	function drawOrderCard(data, ctx) {
 		const maxFieldsHeight = maxHeight / 2.2;
 		const textPosition = maxHeight / 1.85;
 		const marginOrderWidth = maxHeight / 10;
@@ -360,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = await loadImage(data.picture);
+		const picture = loadImage(data.picture);
 
 		// Draw the main picture resized
 		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
@@ -419,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		drawText(data.general, textPosition);
 	}
 
-	async function drawEventCard(data, ctx) {
+	function drawEventCard(data, ctx) {
 		const maxFieldsHeight = maxHeight / 3.6;
 		const textPosition = maxHeight / 1.46;
 
@@ -427,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		let fontSize = maxHeight / 33;
 
 		// Load images from paths
-		const picture = await loadImage(data.picture);
+		const picture = loadImage(data.picture);
 
 		// Draw the main picture resized
 		ctx.drawImage(picture, 0, 0, maxWidth, maxHeight);
