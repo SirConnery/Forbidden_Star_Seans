@@ -238,18 +238,15 @@ document.addEventListener('DOMContentLoaded', function () {
 		return returnHeight;
 	};
 
-	function loadImage(url) {
-		return await loadAsyncImage(url)
-	}
-	
-	async function loadAsyncImage(url) {
-	return new Promise((resolve, reject) => {
-		const img = new Image();
-		img.onload = () => resolve(img);
-		img.onerror = () => reject(new Error('Failed to load image'));
-		// img.src = `${url}?cb=${new Date().getTime()}`;
-		img.src = url;
-	});
+	async function loadImage(url) {
+		return await new Promise((resolve, reject) => {
+			const img = new Image();
+			img.onload = () => resolve(img);
+			img.onerror = () => reject(new Error('Failed to load image'));
+			// img.src = `${url}?cb=${new Date().getTime()}`;
+			img.src = url;
+		});
+	};
 
 	// DRAWING CANVAS SECTION
 	function drawCombatCard(data, ctx) {
@@ -280,16 +277,16 @@ document.addEventListener('DOMContentLoaded', function () {
 		let foregroundTextHeight = 0;
 
 		// Replacing all characters ForbiddenStars Related
-		data.background = replaceForbiddenStarsElements(data.background)
-		data.foreground = replaceForbiddenStarsElements(data.foreground)
+		const backgroundWithFbElements = replaceForbiddenStarsElements(data.background)
+		const foregroundWithFbElements = replaceForbiddenStarsElements(data.foreground)
 
 		// Cards text height Declaration
 		const recalculateTextHeight = () => {
 			if (data.background.length > 0) {
-				backgroundTextHeight = calculateTextHeight(ctx, data.background, extraBackgroundborder, marginHeight, interline, fontSize);
+				backgroundTextHeight = calculateTextHeight(ctx, backgroundWithFbElements, extraBackgroundborder, marginHeight, interline, fontSize);
 			}
 			if (data.foreground.length > 0) {
-				foregroundTextHeight = calculateTextHeight(ctx, data.foreground, extraForegroundTriangle, marginHeight, interline, fontSize);
+				foregroundTextHeight = calculateTextHeight(ctx, foregroundWithFbElements, extraForegroundTriangle, marginHeight, interline, fontSize);
 			}
 		};
 		recalculateTextHeight()
@@ -345,12 +342,12 @@ document.addEventListener('DOMContentLoaded', function () {
 		if (data.background.length > 0) {
 			const backgroundY = maxHeight - (backgroundTextHeight + foregroundTextHeight);
 			drawImageCropped(background, backgroundY);
-			drawText(data.background, backgroundY, extraBackgroundborder);
+			drawText(backgroundWithFbElements, backgroundY, extraBackgroundborder);
 		}
 		if (data.foreground.length > 0) {
 			const foregroundY = maxHeight - (foregroundTextHeight + extraForegroundTriangle * 0.35);
 			drawImageCropped(foreground, foregroundY);
-			drawText(data.foreground, foregroundY, extraForegroundTriangle);
+			drawText(foregroundWithFbElements, foregroundY, extraForegroundTriangle);
 		}
 		ctx.drawImage(bottomImage, 0, 0, 454, 18, 0, maxHeight - bottomImageheight, maxWidth, bottomImageheight);
 	}
@@ -376,10 +373,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Initial settings for margin and font size
 		let generalTextHeight = 0;
 
-		data.general = replaceForbiddenStarsElements(data.general)
+		const generalTextWithFbElements = replaceForbiddenStarsElements(data.general)
 
 		const recalculateTextHeight = () => {
-			generalTextHeight = calculateTextHeight(ctx, data.general, 0, marginOrderWidth, interline, fontSize);
+			generalTextHeight = calculateTextHeight(ctx, generalTextWithFbElements, 0, marginOrderWidth, interline, fontSize);
 		};
 
 		const resizeAllShit = () => {
@@ -419,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			};
 			ctx.fillText(line, maxWidth / 2, yPosition);
 		};
-		drawText(data.general, textPosition);
+		drawText(generalTextWithFbElements, textPosition);
 	}
 
 	function drawEventCard(data, ctx) {
@@ -446,10 +443,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Initial settings for margin and font size
 		let generalTextHeight = 0;
 
-		data.general = replaceForbiddenStarsElements(data.general);
+		const generalTextWithFbElements = replaceForbiddenStarsElements(data.general);
 
 		const recalculateTextHeight = () => {
-			generalTextHeight = calculateTextHeight(ctx, data.general, 0, 0, interline, fontSize);
+			generalTextHeight = calculateTextHeight(ctx, generalTextWithFbElements, 0, 0, interline, fontSize);
 		};
 
 		const resizeAllShit = () => {
@@ -489,6 +486,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			};
 			ctx.fillText(line, marginWidth, yPosition);
 		};
-		drawText(data.general, textPosition);
+		drawText(generalTextWithFbElements, textPosition);
 	};
 });
