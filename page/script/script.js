@@ -257,14 +257,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// DRAWING CANVAS SECTION
 	async function drawCombatCard(data, ctx) {
-		const bottomImageheight = maxHeight / 40;
-		const maxFieldsHeight = maxHeight / 2.5;
-		const extraForegroundTriangle = maxHeight / 22;
-		const extraBackgroundborder = maxHeight / 26;
+		const bottomImageheight = maxHeight * 0.025;
+		const maxFieldsHeight = maxHeight * 0.4;
+		const extraForegroundTriangle = maxHeight * 0.0455;
+		const extraBackgroundborder = maxHeight * 0.0385;
 
-		let interline = maxHeight / 130;
-		let marginHeight = maxWidth / 15;
-		let fontSize = maxHeight / 33;
+		let interline = maxHeight * 0.0077;
+		let marginHeight = maxWidth * 0.05;
+		let fontSize = maxHeight * 0.03;
 
 		// Load images from paths
 		const picture = await loadImage(data.picture);
@@ -292,18 +292,18 @@ document.addEventListener('DOMContentLoaded', function () {
 		recalculateTextHeight()
 
 		const resizeCardText = () => {
-			marginHeight *= 0.7;
-			fontSize *= 0.95;
-			interline *= 0.9;
+			marginHeight *= 0.8;
+			fontSize *= 0.99;
+			interline *= 0.95;
 			recalculateTextHeight();
 		};
 
 		if (data.background.length > 0 && data.foreground.length > 0) {
-			while ((backgroundTextHeight + foregroundTextHeight + marginHeight * 4) > maxFieldsHeight) {
+			while ((backgroundTextHeight + foregroundTextHeight) > maxFieldsHeight) {
 				resizeCardText();
 			};
 		} else {
-			while (Math.max(backgroundTextHeight, foregroundTextHeight) + 2 * marginHeight > maxFieldsHeight) {
+			while (Math.max(backgroundTextHeight, foregroundTextHeight) > maxFieldsHeight) {
 				resizeCardText();
 			};
 		};
