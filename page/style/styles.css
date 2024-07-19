@@ -22,7 +22,7 @@ body {
 #faction-tabs {
     width: 100%;
     position: fixed;
-    background-color: white;
+    background-color: #fff;
     padding: 10px;
     z-index: 1000;
     display: flex;
