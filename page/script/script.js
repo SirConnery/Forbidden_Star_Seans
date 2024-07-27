@@ -473,6 +473,11 @@ document.addEventListener('DOMContentLoaded', function () {
 					yPosition += lineHeight + interline;
 					line = '';
 				}
+				else if (words[n] === "*newpara*") {
+					ctx.fillText(line, marginWidth, yPosition);
+					yPosition += 2 * lineHeight;
+					line = '';
+				}
 				else {
 					const testLine = line + words[n] + ' ';
 					const metrics = ctx.measureText(testLine);
