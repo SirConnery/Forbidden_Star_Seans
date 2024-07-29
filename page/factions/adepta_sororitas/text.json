@@ -26,8 +26,8 @@
 			"Convert up to 2 of your [B] into [M].",
 			"If you are defending, force your opponent to lose 2 (B). *newpara* Force your oppononent to spend either 1 [B] or 1 [M].",
 			"Gain 1 (S) for each of your unrouted units, up to 3.",
-			"Gain 2 (S) unless your opponent allows to discard 1 random combat card from his hand. If he does, gain 1 [M] instead.",
-			"Gain 1 [M] or 1 (S).",
+			"Gain 3 (S) unless your opponent spends 1 die of his choice. If he does, gain 1 [M] instead.",
+			"Gain 1 [M] and 1 (S).",
 			"If this card gets discarded you may resolve its ability. *newpara* Convert up to 3 of your dice into 1 [B] or 1 [S]. Gain 1 (B) for each [M] converted.",
 			"Spend any number of [S] and [M]. For die spent, force your opponent to lose 1 [B].",
 			"Your opponent chooses and discards 1 of his faceup cards."
@@ -42,7 +42,7 @@
 			"Battle Sister/Light Cruiser: Choose 1 of your unrouted units. That unit suffers damage first during this execution round. Damage in excess of the chosen unit health value is lost.",
 			"Battle Sister/Light Cruiser: Gain 2 [D].",
 			"Battle Sister/Light Cruiser: After assign damage phase your opponent chooses and destroys 1 of his routed units unless he spends 1 [B].",
-			"Battle Sister/Light Cruiser: Spend 1 [S] to gain 2 (B). *newline* - or - *newline* Exorcist/Grand Cruiser: You may choose that Exorcist Tank or Vengeance Grand Cruiser suffers damage first during this execution round to gain 3 (B).",
+			"Battle Sister/Light Cruiser: Spend 1 [S] to gain 2 (B). *newline* - or - *newline* Exorcist/Grand Cruiser: You may choose Exorcist Tank or Vengeance Grand Cruiser to suffer damage first during this execution round to gain 3 (B). When the chosen unit is destroyed start next execution round with 2 (B).",
 			"Battle Sister/Light Cruiser: Rally 1 of your units. *newline* - or - *newline* Exorcist/Grand Cruiser: If you have more [M] than your opponent, force your opponent to route 1 unit unless he spends [M].",
 			"",
 			"Living Saint/Grand Cruiser: Gain 4 [D].",
@@ -84,7 +84,7 @@
 			"You may place 1 free Battle Sister on a world containing at least 1 of your units or place 1 free Sister Repentina on a friendly world.",
 			"You may purchase a Combat Card upgrade. You may reduce the cost of that upgrade by up to 3 materiel for every system with your and your opponent's units.",
 			"Gain 1 reinforcement token for every City you control.",
-			"Select system with one of your structures, and place 1 Endurance Light Cruiser on a friendly or uncontrolled void in that system."
+			"Either place 1 free city on a friendly world not containing a structure or spend 3 materiel to place 1 free city on a friendly world not containing a city."
 		],
 		"type": [
 			"SCHEME",
