@@ -18,14 +18,14 @@
 		],
 		"general": [
 			"Either gain 1 [B] or spend 1 of your dice to rally 1 of your units. ",
-			"Gain 1 [S]. If you have at least 1 unrouted ship in the active system, gain 1 reinforcement token and force your opponent to discard 1 of his reinforcement tokens.",
+			"Gain 1 [S]. *newpara* If you have at least 1 unrouted ship in the active system, gain 1 reinforcement token and force your opponent to discard 1 of his reinforcement tokens.",
 			"Gain either 2 (B) or 1 (S).",
-			"Gain 1 (B). Convert 1 of your [M] into [B].",
+			"Gain 1 (B). *newpara*  Convert 1 of your [M] into [B].",
 			"Either gain 1 (B) or draw 1 combat card.",
 			"Gain 2 (B) unless your opponent spends 1 [S].",
-			"If you are attacking, gain 2 (B). When your unit is destroyed during this execution round, you may retreat that unit instead. If you are defending, gain 2 (S). When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [M].",
+			"If you are attacking, gain 2 (B). When your unit is destroyed during this execution round, you may retreat that unit instead. *newpara* If you are defending, gain 2 (S). When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [M].",
 			"Gain either 1 [B] or 1 [S].",
-			"If you are attacking, your opponent cannot gain (B) during this execution round. If you are defending, gain 1 [S] and your opponent loses 2 (B).",
+			"If you are attacking, your opponent cannot gain (B) during this execution round. *newpara* If you are defending, gain 1 [S] and your opponent loses 2 (B).",
 			"During the next execution round, your opponent chooses and plays all of his combat cards at random.",
 			"Your opponent chooses and routs 1 of his units unless he spends 1 [B].",
 			"Your opponent chooses and routs 1 of his units unless he spends 1 [S].",
@@ -36,17 +36,17 @@
 			"Kabalite Warrior/Frigate: Gain 1 [D].",
 			"Kabalite Warrior: Place 1 of your reinforcement tokens in this area.",
 			"Kabalite Warrior/Frigate: If you have more unrouted units than your opponent, your opponent chooses and routs 1 of his units unless he spends 1 [M].",
-			"Kabalite Warrior/Wych/Frigate: Gain 1 (S). Your opponent rerolls 1 [B], 1 [S], or 1 [M].",
+			"Kabalite Warrior/Wych/Frigate: Gain 1 (S). *newpara* Your opponent rerolls 1 [B], 1 [S], or 1 [M].",
 			"Wych/Frigate: Either gain 2 (S) or play 1 combat card from your hand. Do not resolve its abilities, but gain its combat icons during this combat.",
 			"Wych/Frigate: Spend 1 of your dice to gain either 1 [B] or 1 [S].",
 			"",
 			"Kabalite Warrior/Frigate: Your opponent may retreat 1 of his units. Then you may move 1 of your units to an adjacent friendly or uncontrolled area. If you do, gain either 1 [M] or 2 (B).",
 			"Wych/Frigate: Place 1 free reinforcement token in this area.",
 			"",
-			"Ravager/Dying Sun: If you are attacking, gain 2 (S). If you are defending, force your opponent to lose 5 (B).",
+			"Ravager/Dying Sun: If you are attacking, gain 2 (S). *newpara* If you are defending, force your opponent to lose 5 (B).",
 			"Ravager/Dying Sun: Gain 2 (B) unless your opponent chooses and destroys 1 of his units.",
 			"Ravager/Dying Sun: Force your opponent to lose 1 [B], 1 [S] and 1 [M]. ",
-			"Ravager/Dying Sun: Gain 3 (B).  At the end of the assess damage step of this execution round, if your opponent did not suffer any damage during this execution round, he chooses and routs 1 of his units. "
+			"Ravager/Dying Sun: Gain 3 (B). *newpara* At the end of the assess damage step of this execution round, if your opponent did not suffer any damage during this execution round, he chooses and routs 1 of his units. "
 		]
 	},
 	"ordersText": {
@@ -58,11 +58,11 @@
 			"ECLIPSING DESCENT"
 		],
 		"general": [
-			"If you rolled at least 2 [B] during this orbital strike, gain 1 reinforcement token.",
-			"After you resolve this order, you may either spend 1 reinforcement token to place 1 free Kabalite Warrior on any friendly world or replace 1 Kabalite Warrior in the active system with 1 free Wych.",
-			"When resolving this order you may move units from up to 2 different adjecent systems to the active system.",
-			"While resolving this order, increase your command level by 1.",
-			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 1 [B] to move 1 of your ships in the active system to another void in the active system. This can start a new combat after resolving this orbital strike."
+			"If you rolled at least 2 [B] during this orbital strike, gain 1 reinforcement token. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may either spend 1 reinforcement token to place 1 free Kabalite Warrior on any friendly world or replace 1 Kabalite Warrior in the active system with 1 free Wych. *newline* LIMIT ONCE PER ROUND.",
+			"When resolving this order you may move units from up to 2 different adjecent systems to the active system. *newline* LIMIT ONCE PER ROUND.",
+			"While resolving this order, increase your command level by 1. *newline* LIMIT ONCE PER ROUND.",
+			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 1 [B] to move 1 of your ships in the active system to another void in the active system. This can start a new combat after resolving this orbital strike. *newline* LIMIT ONCE PER ROUND."
 		]
 	},
 	"eventsText": {

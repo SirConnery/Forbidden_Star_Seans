@@ -18,28 +18,28 @@
 		],
 		"general": [
 			"Any Unrouted Unit: Your opponent cannot use Primary effect from his next reveled card.",
-			"Rally 1 of your units. Gain 1 [M].",
+			"Rally 1 of your units. *newpara* Gain 1 [M].",
 			"Gain 2 (S).",
-			"If you are attacking, look at your opponent's facedown combat card.Gain 1 [B], 1 [S] or 1 [M].",
+			"If you are attacking, look at your opponent's facedown combat card. *newpara* Gain 1 [B], 1 [S] or 1 [M].",
 			"Gain 2 (B).",
 			"Your opponent may spend 1 [B] to gain 1 (B). If he does not, force your opponent to lose 1 [S].",
-			"Rally1 of your units. ",
+			"",
 			"Gain 2 (S).",
-			"general_9",
-			"If you are defending, opponent looses 3 (B).If you are attacking, your opponent cannnot gain (S) during this execution round.",
-			"Gain 1 [D]. You may spend 1 [M] to move 1 Command level 0  or 2 [M] to move 1 Command level 1 unit to adjacent area. This can start a new combat after resolving this combat.",
+			"",
+			"If you are defending, opponent looses 3 (B). *newpara* If you are attacking, your opponent cannnot gain (S) during this execution round.",
+			"Gain 1 [D]. *newpara* You may spend 1 [M] to move 1 Command level 0 or 2 [M] to move 1 Command level 1 unit to adjacent area. This can start a new combat after resolving this combat.",
 			"You MUST reroll 1 [S] or 1 [M].",
 			"Either gain 1 [S] or 2 (S).",
 			"Choose 1 of your opponents units. That unit suffers damage first during this execution round."
 		],
 		"unit": [
-			"unit_1",
+			"",
 			"Stormtrooper/Rogue Trader: If you have more [M] than your opponent, force your opponent to either rout 1 unit or discard a die of your choice.",
 			"Deathwatch/Rogue Trader: You may spend 2 (S) to gain 1 reinforcement token in this area.",
 			"Stormtrooper/Rogue Trader: Play 1 combat card from your hand. Do not resolve it's abilities, but gain it's combat icons until the end of this execution round.",
 			"Stormtrooper/Rogue Trader: You may spend 2 (B) to convert all of your [M] to [B].",
 			"Stormtrooper/Rogue Trader: Your opponent rerolls 2 dies of your choice.",
-			"Stromtrooper/Deathwatch/Cruiser: Gain 1 (S) for each [S] you have, to a maximum of 4.",
+			"Stromtrooper/Deathwatch/Cruiser: Rally 1 of your units. *newpara* Gain 1 (S) for each [S] you have, to a maximum of 4.",
 			"Deathwatch/Rogue Trader: Gain 1 (B) for each [B] you have, to a maximum of 3. Your opponent gains 1 (B) for each [B] he has, to a maximum of 3.",
 			"Deathwatch/Rogue Trader: Choose your opponent's unit up to command level 2. Force your opponent to rout that unit, unless he spends dice equal to that units morale value.",
 			"Valkyrie/Black Ship: Gain up to 3 (S) for each unrouted unit and bastion.",
@@ -58,11 +58,11 @@
 			"TERROR STRIKE"
 		],
 		"general": [
-			"During an orbital strike gain 1 [D], and you may spend 1 [M] to gain 1 asset from the world the strike was on.  ",
-			"In resolution step of a won combat while resolving this order, you may force your opponent to choose 1 routed unit before the retreat phase and destroy it.",
-			"When resolving this order, you may gain 1 free Stormtrooper on planet with City in active system.",
-			"When you reveal this order token, draw 3 Event cards. Choose 1 of drawn cards and discard the others. Put the chosen card aside and take it during Event Phase.",
-			"Bastions do not prevent this strike. You may either  spend 1 [M] to force your enemy to rout 1 unit or spent 2 [M] to force your enemy to retreat 1 unit."
+			"During an orbital strike gain 1 [D], and you may spend 1 [M] to gain 1 asset from the world the strike was on. *newline* LIMIT ONCE PER ROUND.",
+			"In resolution step of a won combat while resolving this order, you may force your opponent to choose 1 routed unit before the retreat phase and destroy it. *newline* LIMIT ONCE PER ROUND.",
+			"When resolving this order, you may gain 1 free Stormtrooper on planet with City in active system. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, draw 3 Event cards. Choose 1 of drawn cards and discard the others. Put the chosen card aside and take it during Event Phase. *newline* LIMIT ONCE PER ROUND.",
+			"Bastions do not prevent this strike. You may either  spend 1 [M] to force your enemy to rout 1 unit or spent 2 [M] to force your enemy to retreat 1 unit. *newline* LIMIT ONCE PER ROUND."
 		]
 	},
 	"eventsText": {
