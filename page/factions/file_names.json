@@ -1,6 +1,6 @@
 {
   "factions": {
-    "folder" : ["adepta_sororitas", "adeptus_mechanicus", "empty", "empty", "empty"],
+    "folder" : ["adepta_sororitas", "adeptus_mechanicus", "dark_eldar", "inquisition", "empty"],
     "name" : ["Adepta Sororitas", "Adeptus Mechanicus", "Dark Eldar", "Inquisition", "Example"]
   } ,
 
