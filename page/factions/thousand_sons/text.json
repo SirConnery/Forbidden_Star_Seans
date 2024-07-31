@@ -1,7 +1,7 @@
 {
 	"combatText": {
 		"title": [
-			"title_1",
+			"Trickery",
 			"title_2",
 			"title_3",
 			"title_4",
@@ -17,7 +17,7 @@
 			"title_14"
 		],
 		"general": [
-			"general_1",
+			"If you are attacking your opponent discards their facedown combat card after this combat round and gains the combat icons on that card as dice starting from the icon on the top",
 			"general_2",
 			"general_3",
 			"general_4",
