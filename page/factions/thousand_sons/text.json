@@ -1,11 +1,11 @@
 {
 	"combatText": {
 		"title": [
-			"Trickery",
-			"title_2",
-			"title_3",
-			"title_4",
-			"title_5",
+			"CHANGING THE PAST",
+			"WRITTEN FUTURE",
+			"EMBRACE THE CHAOS",
+			"RITUAL OF RENEWAL",
+			"LOOK TO THE PAST",
 			"title_6",
 			"title_7",
 			"title_8",
@@ -17,11 +17,11 @@
 			"title_14"
 		],
 		"general": [
-			"If you are attacking your opponent discards their facedown combat card after this combat round and gains the combat icons on that card as dice starting from the icon on the top",
-			"general_2",
-			"general_3",
-			"general_4",
-			"general_5",
+			"If you are attacking, your opponent discards their facedown combat card, then they choose a different card to play face down. At the end of this execution round they can draw their discarded combat card.",
+			"If you are attacking, gain 1 [D] and in the next execution round the defender plays their card first. *newpara* If you are defending you may play any other card from your hand. Do not resolve the unit ability on this card if done so.",
+			"Gain 1 (S) or 1(B) . Reroll two of your dice and then your opponent rerolls 2 dice of your choice.",
+			"",
+			"Discard a card from your hand or from the top of your combat deck and resolve the unit ability on that card",
 			"general_6",
 			"general_7",
 			"general_8",
@@ -33,11 +33,11 @@
 			"general_14"
 		],
 		"unit": [
-			"unit_1",
-			"unit_2",
-			"unit_3",
-			"unit_4",
-			"unit_5",
+			"Tzaangor Shaman: Gain 1 [D] or 2 (S)",
+			"Tzaangor Shaman: Gain 1 [D] and 2 (S)",
+			"Tzaangor Shaman: Gain [D] and retreat 1 of your units",
+			"Tzaangor Shaman: If any of your units are destroyed this execution round place a Tzaangor Shaman in this world after the assign damage step",
+			"Tzaangor Shaman: Rout a unit and choose a faceup combat card in your play area, gain the icons on that combat card as dice",
 			"unit_6",
 			"unit_7",
 			"unit_8",
