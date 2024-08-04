@@ -34,11 +34,11 @@
 		],
 		"unit": [
 			"Custodian: If your opponent suffers damage this execution round they suffer 2 more damage",
-			"Custodian: If you have at least 1 [B] or (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
+			"Custodian: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
 			"Custodian: Gain 1 [D].",
 			"Spend 1 [M] and choose a unit, during this execution round that unit cannot become routed.",
 			"Custodian/Champion: Spend 1[M] and force your opponent to lose 1[B] or 1[M].",
-			"Blade Champion: Spend 1 [D] to Gain 3(B) and your opponent may retreat up to 2 units.",
+			"Blade Champion: Spend 1 [D] to gain 3 (B) and your opponent may retreat up to 2 units.",
 			"Blade Champion: Spend 1 [M] to gain 1[B] or 1 [S].",
 			"Champion: The first time this execution round when an enemy unit is routed it’s destroyed unless your opponent spends 2 [D] when a unit is routed.",
 			"Custodian: Choose a unit, in the beginning of the next execution round if that unit is routed rally that unit.",
