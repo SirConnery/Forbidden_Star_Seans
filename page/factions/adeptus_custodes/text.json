@@ -1,0 +1,100 @@
+{
+	"combatText": {
+		"title": [
+			"DACATARAI STANCE",
+			"RENDAX STANCE",
+			"FIRE IN THE HOLE",
+			"INSANE BRAVERY",
+			"CALL OF GLORY",
+			"BRAVE CHARGE",
+			"INSPIRING LEADER",
+			"NO ESCAPE",
+			"DEFEND OUR HONOR",
+			"SUDDEN CHARGE",
+			"CAPTAIN'S SHIELD",
+			"HEROIC MANOUVERS",
+			"FOR THE EMPEROR",
+			"FERVOR OF TERRA"
+		],
+		"general": [
+			"Gain 1 [D]. *newpara* If your opponent has more unrouted units than you gain 2 (S).",
+			"Gain 1[D]. *newpara* If your opponent has an unrouted unit that is not a command level 0 unit, gain 1 (S) and 1 (B).",
+			"Force your opponent to lose 1 [D].",
+			"Gain 1 [D]. *newpara* Rally a unit.",
+			"General: Gain 1[D]. *newpara* If you have less units than your opponent gain 1[M] or 1[D].",
+			"",
+			"General: Gain 1 [D]. *newpara* Rally up to 2 units.",
+			"Gain 1 [D].",
+			"Choose one of your units and gain that unit’s Morale value as shield tokens",
+			"Spend 1 [M] to gain 2 [B]. At the end of the assess damage step rout 1 of your units.",
+			"",
+			"Gain 1 (B) and 1 (S). *newpara* Rally a unit.",
+			"Gain 2 [D].",
+			"Rally a unit. Draw a combat card."
+		],
+		"unit": [
+			"Custodian: If your opponent suffers damage this execution round they suffer 2 more damage",
+			"Custodian: If you have at least 1 [B] or (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
+			"Custodian: Gain 1 [D].",
+			"Spend 1 [M] and choose a unit, during this execution round that unit cannot become routed.",
+			"Custodian/Champion: Spend 1[M] and force your opponent to lose 1[B] or 1[M].",
+			"Blade Champion: Spend 1 [D] to Gain 3(B) and your opponent may retreat up to 2 units.",
+			"Blade Champion: Spend 1 [M] to gain 1[B] or 1 [S].",
+			"Champion: The first time this execution round when an enemy unit is routed it’s destroyed unless your opponent spends 2 [D] when a unit is routed.",
+			"Custodian: Choose a unit, in the beginning of the next execution round if that unit is routed rally that unit.",
+			"Shield Captain: Gain 3 (B), your opponent may spend 1 [M] to retreat up to 3 units.",
+			"Shield Captain: Gain 2 (S). *newpara* You may reroll up to 2 [B]",
+			"Shield Captain: You may retreat any amount of units, gain 2 (B) for each unit retreated. Then rally one of the units that retreated.",
+			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
+			"Valoris: Play any other combat card from your hand."
+		]
+	},
+	"ordersText": {
+		"title": [
+			"GUARDS OF THE EMPEROR",
+			"HEROIC INTERVENTION",
+			"EMPEROR'S WILL",
+			"DEEP STRIKE",
+			"EMPEROR'S CALL"
+		],
+		"general": [
+			"When discarding order tokens in combat gain an extra shield or attack token. ",
+			"After resolving a Dominate Order resolve an Advance Order in the active sector. Limit once per turn. *newline* LIMIT ONCE PER ROUND.",
+			"After resolving this order treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
+			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take an Allarus Custodian from any world and place them on that world. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order, choose a unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
+		]
+	},
+	"eventsText": {
+		"title": [
+			"title_1",
+			"title_2",
+			"title_3",
+			"title_4",
+			"title_5",
+			"title_6",
+			"title_7",
+			"title_8"
+		],
+		"general": [
+			"general_1",
+			"general_2",
+			"general_3",
+			"general_4",
+			"general_5",
+			"general_6",
+			"general_7",
+			"general_8"
+		],
+		"type": [
+			"SCHEME",
+			"SCHEME",
+			"SCHEME",
+			"SCHEME",
+			"TACTIC",
+			"TACTIC",
+			"TACTIC",
+			"TACTIC"
+		]
+	}
+}
