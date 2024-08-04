@@ -8,7 +8,7 @@
 			"LOOK TO THE PAST",
 			"SWARM OF TZAANGOR",
 			"TERRIFYING ILLUSION",
-			"RITUAL OF WISDOM",
+			"RITE OF ENLIGHTENMENT",
 			"MANIPULATE SPACE TIME",
 			"RENEWAL OF DEATH",
 			"DARK REVERSAL",
@@ -23,11 +23,11 @@
 			"",
 			"Discard a card from your hand or from the top of your combat deck and resolve the unit ability on that card.",
 			"Place 1 free reinforcement token in this area.",
-			"Gain 1[B], 1[S] or 1[M] or gain 2 [D] *newpara*Spend 1 [M] to rout 1 opponent unit.",
+			"Gain 1 [B], 1 [S] or 1 [M] or gain 2 [D] *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of their units.",
 			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a Tzaangor Enlightened in this world after the assign damage step.",
-			"Choose a friendly unit in this area and place it in any other friendly area that has a non-routed unit. Take that unit and place it in this area.",
+			"Choose a friendly unit in this area and place it in any other friendly area that has a non-routed Tzaangor Shaman. Take that Tzaangor Shaman and place it in this area.",
 			"If any of your ground units are destroyed this turn instead place them routed in any friendly world with a city.",
-			"For every damage suffered by you this turn gain 1 (B) in the next execution round.",
+			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
 			"Gain 1 [D].",
 			"Gain 1 [D] *newpara* Your opponent rerolls up to 3 dice of your choice.",
 			"Gain 1[D]. *newpara* Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
@@ -35,32 +35,32 @@
 		"unit": [
 			"Tzaangor Shaman: Gain 1 [D] or 2 (S).",
 			"Tzaangor Shaman: Gain 1 [D] and 2 (S).",
-			"Tzaangor Shaman: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they spend 1 [D].",
+			"Tzaangor Shaman: Force your opponent to retreat 1 of their units unless they spend 1 [D]. If they retreated a unit they gain 1 [D].",
 			"Tzaangor Shaman: If any of your units are destroyed this execution round place a Tzaangor Shaman in this world after the assign damage step of this execution round.",
 			"Tzaangor Shaman: Choose a faceup combat card in your play area, gain the icons on that combat card as dice.",
 			"Tzaangor Shaman/Tzaangor Enlightened: Gain 1 (B) for each Tzaangor Shaman and Tzaangor Enlightened.",
-			"Tzaangor Shaman/Tzaangor Enlightened: Force opponent to retreat a routed unit.",
-			"Tzaangor Enlightened: Destroy a Tzaangor Shaman to gain 2[D].",
+			"Tzaangor Shaman/Tzaangor Enlightened: Force your opponent to retreat 1 of their routed units.",
+			"Tzaangor Enlightened: Destroy a Tzaangor Shaman to gain 2 [D].",
 			"Tzaangor Shaman: Spend 2 [B] and [S] combined to gain 1 [M] and 2 (S).",
-			"Destroy a Tzaangor Enlightened and place 2 Tzaangor Shamans in this world or destroy a CL2 ship to place up to 3 CL0 ships here.",
-			"If one of your units is destroyed this combat round you may instead rout them.",
-			"Sorcerer: Spend 1 [D] to destroy an opponent command level 0 unit or spend 1 [M] to destroy a routed command level 1 unit.",
+			"Sorcerer: Destroy a Tzaangor Enlightened and place 2 Tzaangor Shamans in this world or destroy a CL2 ship to place up to 3 CL0 ships here.",
+			"Sorcerer: If one of your units is destroyed this combat round you may instead rout them.",
+			"Sorcerer: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
 			"Terminator: Gain 1 (B) for each unit in this battle.",
-			"Terminator: Spend 1 [D] and gain 1 [B],[S] or [M]. *newpara* Play only 2 Combat rounds in this combat."
+			"Terminator: Spend 1 [D] and gain 1 [B], [S] or [M]. *newpara* Play only 2 Combat rounds in this combat."
 		]
 	},
 	"ordersText": {
 		"title": [
-			"title_1",
-			"title_2",
-			"title_3",
+			"TIME DILATION",
+			"SUMMONING PORTAL",
+			"REVERSE TIME",
 			"title_4",
 			"title_5"
 		],
 		"general": [
-			"general_1",
-			"general_2",
-			"general_3",
+			"After you have resolved this order you may place one of your orders that's on top of the stack into any sector adjacent to it that has no other order tokens. *newline* LIMIT ONCE PER ROUND.",
+			"Choose 2 friendly units in any one world and place them in any friendly cities in the active sector",
+			"When this order starts a combat and one of your units in that combat is destroyed, place that unit back in that area routed. *newline* LIMIT ONCE PER ROUND",
 			"general_4",
 			"general_5"
 		]
