@@ -29,8 +29,8 @@
 			"If any of your ground units are destroyed this turn instead place them routed in any friendly world with a city.",
 			"For every damage suffered by you this turn gain 1 (B) in the next execution round.",
 			"Gain 1 [D].",
-			"Gain 1 (B) for each unit in this battle.",
-			"Terminator: Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
+			"Gain 1 [D] *newpara* Your opponent rerolls up to 3 dice of your choice.",
+			"Gain 1[D]. *newpara* Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
 		],
 		"unit": [
 			"Tzaangor Shaman: Gain 1 [D] or 2 (S).",
@@ -45,7 +45,7 @@
 			"Destroy a Tzaangor Enlightened and place 2 Tzaangor Shamans in this world or destroy a CL2 ship to place up to 3 CL0 ships here.",
 			"If one of your units is destroyed this combat round you may instead rout them.",
 			"Sorcerer: Spend 1 [D] to destroy an opponent command level 0 unit or spend 1 [M] to destroy a routed command level 1 unit.",
-			"Gain 1 [D] *newpara* Your opponent rerolls 2 dice of your choice.",
+			"Terminator: Gain 1 (B) for each unit in this battle.",
 			"Terminator: Spend 1 [D] and gain 1 [B],[S] or [M]. *newpara* Play only 2 Combat rounds in this combat."
 		]
 	},
