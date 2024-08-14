@@ -61,7 +61,7 @@
 			"After you resolve one of these orders, in the active sector in 1 hostile world that you have a Neophyte Hybrid, place a free Neophyte Hybrid in that world. *newline* LIMIT ONCE PER ROUND.",
 			"When you resolve this order, you may gain any assets from hostile worlds where you have a Neophyte Hybrid in the active sector.",
 			"When you resolve this order, you may treat all enemy voids as friendly voids for any Neophyte Hybrids moving through it.",
-			"After resolving this order, you may spend 2 Materiel to replace 1 Neophyte Hybrid in any world with a Purestrain Genestealer. This can start combat. *newline* Planet capacity for your units is increased by 2 to a maximum of 5 in hostile worlds.",
+			"After resolving this order, you may spend 2 Materiel to replace 1 Neophyte Hybrid in any world with a Purestrain Genestealer. *newline* Planet capacity for your units is increased by 2 to a maximum of 5 in hostile worlds.",
 			"general_5"
 		]
 	},
@@ -77,12 +77,12 @@
 			"CULT IS HERE"
 		],
 		"general": [
-			"Start combat in a hostile world where you have a Neophyte Hybrid, gain 2 [D] in the Roll Dice phase.",
+			"Start combat in a hostile world where you have at least 1 Neophyte Hybrid, gain 2 [D] in the Roll Dice phase.",
 			"Destroy 2 Neophyte Hybrids on any one world to place a free Purestrain Genestealer on that world.",
 			"Purchase a combat upgrade with a discount of the number of Neophyte Hybrids you have in a hostile world that has the most Neophyte Hybrids.",
 			"Gain 2 reinforcement tokens.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round if you have 2 or more unrouted Neophyte Hybrids you may discard this card to route an opponent unit of command level 2 or less.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat in the Roll Dice step you may discard this card to have up to 2 opponent command level 0 units roll their combat value for you and none for the opponent.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat in the Roll Dice step you may discard this card to have up to 2 opponent command level 0 units to instead roll their combat value for you.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* When you reveal a Strategize Order you may discard this card to look at any order that’s on top of the stack and then place it back. Gain 1 materiel.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase you may discard this card to place a free reinforcement token in the combat area. You may then gain 2 [M]."
 		],
