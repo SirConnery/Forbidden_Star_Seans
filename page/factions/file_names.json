@@ -1,7 +1,7 @@
 {
   "factions": {
-    "folder" : ["adepta_sororitas", "adeptus_mechanicus", "dark_eldar", "inquisition", "thousand_sons","leagues_of_votann", "adeptus_custodes"],
-    "name" : ["Adepta Sororitas", "Adeptus Mechanicus", "Dark Eldar", "Inquisition", "Thousand Sons", "Votann", "Adeptus Custodes"]
+    "folder" : ["adepta_sororitas", "adeptus_mechanicus", "dark_eldar", "inquisition", "thousand_sons","leagues_of_votann", "adeptus_custodes","genestealer_cult"],
+    "name" : ["Adepta Sororitas", "Adeptus Mechanicus", "Dark Eldar", "Inquisition", "Thousand Sons", "Votann", "Adeptus Custodes", "Genestealer Cult"]
   } ,
 
   "files": {
