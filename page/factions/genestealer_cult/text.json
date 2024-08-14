@@ -58,10 +58,10 @@
 			"title_5"
 		],
 		"general": [
-			"After you resolve one of these orders, in the active sector in 1 hostile world that you have a Neophyte Hybrid, place a free Neophyte Hybrid in that world.",
+			"After you resolve one of these orders, in the active sector in 1 hostile world that you have a Neophyte Hybrid, place a free Neophyte Hybrid in that world. *newline* LIMIT ONCE PER ROUND.",
 			"When you resolve this order, you may gain any assets from hostile worlds where you have a Neophyte Hybrid in the active sector.",
 			"When you resolve this order, you may treat one enemy void as a friendly void for any Neophyte Hybrids moving through it.",
-			"After resolving this order, you may spend 2 Materiel to replace 1 Neophyte Hybrid in any world with a Purestrain Genestealer. This can start combat. *newline* Planet capacity for your units is increased by 2 in hostile worlds",
+			"After resolving this order, you may spend 2 materiel to replace 1 Neophyte Hybrid in any world with a Purestrain Genestealer. *newline* Planet capacity for your units is increased by 2 in hostile worlds",
 			"general_5"
 		]
 	},
