@@ -54,47 +54,47 @@
 			"A.N - VYL WORKSTATION",
 			"IRONKIN WAYFINDER",
 			"TRADERS OF THE VOID",
-			"title_4",
+			"HOLD WORLDS",
 			"title_5"
 		],
 		"general": [
 			"When you use your dominate ability and purchase a combat card spend a Forge token to take a second combat card of the same command level you purchased and place it in your combat deck. Then remove a combat card from your combat deck and place it in the combat upgrade deck. *newline* LIMIT ONCE PER ROUND.",
 			"Domination upgrade - Move a ship in the active sector to any adjacent void. This can start combat. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token gain 1 Forge token.",
-			"general_4",
+			"After resolving this order you may build a bastion on a world already containing a bastion for 1 materiel.",
 			"general_5"
 		]
 	},
 	"eventsText": {
 		"title": [
-			"title_1",
-			"title_2",
-			"title_3",
-			"title_4",
-			"title_5",
-			"title_6",
-			"title_7",
-			"title_8"
+			"PROSPEROUS TRADERS",
+			"SECRETS OF THE VOID",
+			"THE VOID",
+			"TOIL EARNS",
+			"OATHBAND",
+			"TECHNOLOGICAL ADVANTAGE",
+			"TARGETED EFFORT",
+			"IRONKIN SUPPORT"
 		],
 		"general": [
-			"general_1",
-			"general_2",
-			"general_3",
-			"general_4",
-			"general_5",
-			"general_6",
-			"general_7",
-			"general_8"
+			"Gain 2 prosperity tokens, then choose 1 opponent to gain 1 prosperity token.",
+			"Purchase 1 order upgrade, ignore command level restrictions and reduce the upgrade’s materiel cost by 1 for each ship you have.",
+			"Place a free Bastion Commerce Vessel in a friendly or empty void in the sector that contains the Galactic Core. Or pay 2 materiel and a forge token to place a free Stronghold Commerce Vessel there instead.",
+			"Gain 2 forge tokens and gain 1 materiel for each forge token that exceeds your maximum asset limit.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* After the Reinforce Step of combat you may discard this card to place 1 free reinforcement in this world and gain 1 [D].",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of Choose Combat Cards step you may discard this card to play an additional command level 0 card from your hand.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* While resolving an orbital strike, you may discard this card to choose and route an enemy unit in that world before assessing damage.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the end of the Reinforce Step you may discard this card to spend any amount of forge tokens to place that number of free reinforcement tokens in this combat."
 		],
 		"type": [
-			"SCHEME",
-			"SCHEME",
-			"SCHEME",
-			"SCHEME",
 			"TACTIC",
 			"TACTIC",
 			"TACTIC",
-			"TACTIC"
+			"TACTIC",
+			"SCHEME",
+			"SCHEME",
+			"SCHEME",
+			"SCHEME"
 		]
 	}
 }
