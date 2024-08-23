@@ -24,7 +24,7 @@
 			"Discard a card from your hand or from the top of your combat deck and resolve the unit ability on that card.",
 			"Place 1 free reinforcement token in this area.",
 			"Gain 1 [B], 1 [S] or 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of their units.",
-			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a Tzaangor Enlightened in this world after the assign damage step.",
+			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a Tzaangor Enlightened in this world after the assess damage step.",
 			"Choose a friendly unit in this area and place it in any other friendly area that has a non-routed Tzaangor Shaman. Take that Tzaangor Shaman and place it in this area.",
 			"If any of your ground units are destroyed this turn instead place them routed in any friendly world with a city.",
 			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
@@ -33,20 +33,20 @@
 			"Gain 1[D]. *newpara* Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
 		],
 		"unit": [
-			"Tzaangor Shaman: Gain 1 [D] or 2 (S).",
-			"Tzaangor Shaman: Gain 1 [D] and 2 (S).",
-			"Tzaangor Shaman: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they spend 1 [D]. If they retreated a unit they gain 1 [D]",
-			"Tzaangor Shaman: If any of your units are destroyed this execution round place a Tzaangor Shaman in this world after the assign damage step of this execution round.",
-			"Tzaangor Shaman: Choose a faceup combat card in your play area, gain the icons on that combat card as dice.",
+			"Tzaangor Shaman/Vessel: Gain 1 [D] or 2 (S).",
+			"Tzaangor Shaman/Vessel: Gain 1 [D] and 2 (S).",
+			"Tzaangor Shaman/Vessel: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they spend 1 [D]. If they retreated a unit they gain 1 [D]",
+			"Tzaangor Shaman: If any of your units are destroyed this execution round place a Tzaangor Shaman in this world after the assess damage step of this execution round.",
+			"Tzaangor Shaman/Vessel: Choose a faceup combat card in your play area, gain the icons on that combat card as dice.",
 			"Tzaangor Shaman/Tzaangor Enlightened: Gain 1 (B) for each Tzaangor Shaman and Tzaangor Enlightened.",
-			"Tzaangor Shaman/Tzaangor Enlightened: Force your opponent to retreat 1 of their routed units.",
+			"Tzaangor Shaman/Tzaangor Enlightened/Vessel: Force your opponent to retreat 1 of their routed units.",
 			"Tzaangor Enlightened: Destroy a Tzaangor Shaman to gain 2 [D].",
-			"Tzaangor Shaman: Spend 2 [B] and [S] combined to gain 1 [M] and 2 (S).",
+			"Tzaangor Shaman/Vessel: Spend 1 [B] and 1 [S] to gain 1 [M] and 2 (S).",
 			"Sorcerer: Destroy a Tzaangor Enlightened and place 2 Tzaangor Shamans in this world or destroy a CL2 ship to place up to 3 CL0 ships here.",
-			"Sorcerer: If one of your units is destroyed this combat round you may instead rout them.",
-			"Sorcerer: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
-			"Terminator: Gain 1 (B) for each unit in this battle.",
-			"Terminator: Spend up to 2 [D] and gain 1 [B],[S] or [M] for each [D] spent. *newpara* Choose either: *newpara* A) Combat ends after 2 execution rounds *newline* - or - *newline* B) Play an extra execution round"
+			"Sorcerer/Larger Vessel: If one of your units is destroyed this combat round you may instead rout them.",
+			"Sorcerer/Larger Vessel: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
+			"Terminator/Larger Vessel: Gain 1 (B) for each unit in this battle.",
+			"Terminator/Larger Vessel: Spend up to 2 [D] and gain 1 [B],[S] or [M] for each [D] spent. *newpara* Choose either: *newpara* A) Combat ends after 2 execution rounds *newline* - or - *newline* B) Play an extra execution round"
 		]
 	},
 	"ordersText": {

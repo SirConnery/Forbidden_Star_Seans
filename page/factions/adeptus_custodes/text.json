@@ -18,33 +18,33 @@
 		],
 		"general": [
 			"Gain 1 [D]. *newpara* If your opponent has more unrouted units than you gain 2 (S).",
-			"Gain 1[D]. *newpara* If your opponent has an unrouted unit that is not a command level 0 unit, gain 1 (S) and 1 (B).",
+			"Gain 1 [D]. *newpara* If your opponent has an unrouted unit that is not a command level 0 unit, gain 1 (S) and 1 (B).",
 			"Force your opponent to lose 1 [D].",
-			"Gain 1 [D]. *newpara* Rally a unit.",
+			"Gain 1 [D]. *newpara* Rally 1 of your units.",
 			"Gain 1 [D]. *newpara* If you have less units than your opponent gain 1 [M] or 1 [D].",
 			"",
-			"Gain 1 [D]. *newpara* Rally up to 2 units.",
+			"Gain 1 [D]. *newpara* Rally up to 2 of your units.",
 			"Gain 1 [D].",
 			"Choose one of your units and gain that unit’s Morale value as shield tokens",
 			"Spend 1 [M] to gain 2 [B]. At the end of the assess damage step rout 1 of your units.",
 			"",
-			"Gain 1 (B) and 1 (S). *newpara* Rally a unit.",
+			"Gain 1 (B) and 1 (S). *newpara* Rally 1 of your units.",
 			"Gain 2 [D].",
-			"Rally a unit. Draw a combat card."
+			"Rally 1 of your units. Draw a combat card."
 		],
 		"unit": [
-			"Custodian: If your opponent suffers damage this execution round they suffer 2 more damage",
-			"Custodian: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
-			"Custodian: Gain 1 [D].",
-			"Spend 1 [M] and choose a unit, during this execution round that unit cannot become routed.",
-			"Custodian/Champion: Spend 1 [M] and force your opponent to lose 1 [B] or 1 [M].",
-			"Blade Champion: Spend 1 [D] to gain 3 (B) and your opponent may retreat up to 2 units.",
-			"Blade Champion: Spend 1 [M] to gain 1 [B] or 1 [S].",
-			"Champion: The first time this execution round when an enemy unit is routed it’s destroyed unless your opponent spends 2 [D] when a unit is routed.",
-			"Custodian: Choose a unit, in the beginning of the next execution round if that unit is routed rally that unit.",
-			"Shield Captain: Gain 3 (B), your opponent may spend 1 [M] to retreat up to 3 units.",
-			"Shield Captain: Gain 2 (S). *newpara* You may reroll up to 2 [B]",
-			"Shield Captain: You may retreat any amount of units, gain 2 (B) for each unit retreated. Then rally one of the units that retreated.",
+			"Guard/Cruiser: If your opponent suffers damage this execution round they suffer 2 more damage",
+			"Guard/Cruiser: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
+			"Guard/Cruiser: Gain 1 [D].",
+			"Guard: Spend 1 [M] and choose a unit, during this execution round that unit cannot become routed.",
+			"Guard/Champion/Cruiser: Spend 1 [M] and force your opponent to lose 1 [B] or 1 [M].",
+			"Champion: Spend 1 [B] to gain 3 (B) and your opponent may retreat up to 2 units.",
+			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
+			"Champion/Cruiser: The first time this execution round when an enemy unit is routed it’s destroyed unless your opponent spends 2 [D] when a unit is routed.",
+			"Guard/Champion/Cruiser: Choose 1 of your units, in the beginning of the next execution round if that unit is routed rally that unit.",
+			"Captain: Gain 3 (B), your opponent may spend 1 [M] to retreat up to 3 units.",
+			"Captain/Moiraideis: Gain 2 (S). *newpara* You may reroll up to 2 [B]",
+			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
 			"Valoris: Play any other combat card from your hand."
 		]
@@ -62,7 +62,7 @@
 			"After resolving a Dominate Order resolve an Advance Order in the active sector. Limit once per turn. *newline* LIMIT ONCE PER ROUND.",
 			"After resolving this order treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
 			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take an Allarus Custodian from any world and place them on that world. *newline* LIMIT ONCE PER ROUND.",
-			"When you reveal this order, choose a unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
+			"When you reveal this order, choose 1 unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},
 	"eventsText": {
@@ -84,7 +84,7 @@
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this battle.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to force your opponent to lose 1 [S] at the start of each execution round in this battle.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* Instead of revealing an order during the Operations Phase, you may discard this card to look at any order at the top of the stack and then place it back.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to rally a unit each time you gain any (B) or (S) in this combat."
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to rally 1 unit each time you gain any (B) or (S) in this combat."
 		],
 		"type": [
 			"TACTIC",
