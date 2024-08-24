@@ -61,7 +61,7 @@
 			"When discarding order tokens in combat gain an extra shield or attack token. ",
 			"After resolving a Dominate Order resolve an Advance Order in the active sector. Limit once per turn. *newline* LIMIT ONCE PER ROUND.",
 			"After resolving this order treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
-			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take an Allarus Custodian from any world and place them on that world. *newline* LIMIT ONCE PER ROUND.",
+			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take an Custodian Guard from any world and place them on that world. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order, choose 1 unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},
@@ -79,7 +79,7 @@
 		"general": [
 			"Gain 2 materiel. *newpara* Move 1 friendly unit from any world into any friendly world with a city.",
 			"Place a ship in any uncontrolled or friendly void in a sector you have units or buildings in.",
-			"Place a reinforcement token on any friendly or unoccupied world that contains one of your enemies objective token. That reinforcement token counts as an Allarus Custodian for all game effects, except it may not be moved. If it retreats or is forced to move it’s instead destroyed.",
+			"Place a reinforcement token on any friendly or unoccupied world that contains one of your enemies objective token. That reinforcement token counts as a Custodian Guard for all game effects, except it may not be moved. If it retreats or is forced to move it’s instead destroyed.",
 			"Place a free bastion on any friendly world.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this battle.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to force your opponent to lose 1 [S] at the start of each execution round in this battle.",
