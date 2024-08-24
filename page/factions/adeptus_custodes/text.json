@@ -21,7 +21,7 @@
 			"Gain 1 [D]. *newpara* If your opponent has an unrouted unit that is not a command level 0 unit, gain 1 (S) and 1 (B).",
 			"Force your opponent to lose 1 dice of his choice.",
 			"Gain 1 [D]. *newpara* Rally 1 of your units.",
-			"Gain 1 [D]. *newpara* If you have less units than your opponent gain 1 [M] or 1 [D].",
+			"Gain 1 [D]. *newpara* If your opponent has more unrouted units than you gain 1 [M] or 1 [D].",
 			"",
 			"Gain 1 [D]. *newpara* Rally up to 2 of your units.",
 			"Gain 1 [D].",
@@ -34,7 +34,7 @@
 		],
 		"unit": [
 			"Custodian/Cruiser: If your opponent suffers damage this execution round they suffer 2 more damage",
-			"Custodian/Cruiser: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to rout 1 of their units.",
+			"Custodian/Cruiser: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to choose and rout 1 of their units.",
 			"Custodian/Cruiser: Gain 1 [D].",
 			"Custodian: Spend 1 [M] and choose 1 of your units, during this execution round that unit cannot become routed.",
 			"Custodian/Champion/Cruiser: Spend 1 [M] and force your opponent to lose 1 [B] or 1 [M].",
