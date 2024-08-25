@@ -29,13 +29,13 @@
 			"If any of your ground units are destroyed this turn instead place them routed in any friendly world with a city.",
 			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
 			"Gain 1 [D].",
-			"Gain 1 [D] *newpara* Your opponent rerolls up to 3 dice of your choice.",
+			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
 			"Gain 1[D]. *newpara* Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
 		],
 		"unit": [
 			"Tzaangor Shaman/Vessel: Gain 1 [D] or 2 (S).",
 			"Tzaangor Shaman/Vessel: Gain 1 [D] and 2 (S).",
-			"Tzaangor Shaman/Vessel: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they spend 1 [D]. If they retreated a unit they gain 1 [D]",
+			"Tzaangor Shaman/Vessel: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they spend 1 [D]. If they retreated a unit they gain 1 [D].",
 			"Tzaangor Shaman: If any of your units are destroyed this execution round place a Tzaangor Shaman in this world after the assess damage step of this execution round.",
 			"Tzaangor Shaman/Vessel: Choose a faceup combat card in your play area, gain the icons on that combat card as dice.",
 			"Tzaangor Shaman/Tzaangor Enlightened: Gain 1 (B) for each Tzaangor Shaman and Tzaangor Enlightened.",
@@ -46,7 +46,7 @@
 			"Sorcerer/Larger Vessel: If one of your units is destroyed this combat round you may instead rout them.",
 			"Sorcerer/Larger Vessel: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
 			"Terminator/Larger Vessel: Gain 1 (B) for each unit in this battle.",
-			"Terminator/Larger Vessel: Spend up to 2 [D] and gain 1 [B],[S] or [M] for each [D] spent. *newpara* Choose either: *newpara* A) Combat ends after 2 execution rounds *newline* - or - *newline* B) Play an extra execution round"
+			"Terminator/Larger Vessel: Spend up to 2 [D] and gain 1 [B], [S] or [M] for each [D] spent. *newpara* Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round."
 		]
 	},
 	"ordersText": {
@@ -60,7 +60,7 @@
 		"general": [
 			"After you have resolved this order you may place one of your orders that's on top of the stack into any sector adjacent to it that has no other order tokens. *newline* LIMIT ONCE PER ROUND.",
 			"Choose 2 friendly units in any one world and place them in any friendly cities in the active sector.",
-			"When this order starts a combat and one of your units in that combat is destroyed, place that unit back in that area routed. *newline* LIMIT ONCE PER ROUND",
+			"When this order starts a combat and one of your units in that combat is destroyed, place that unit back in that area routed. *newline* LIMIT ONCE PER ROUND.",
 			"general_4",
 			"general_5"
 		]
