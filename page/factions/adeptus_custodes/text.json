@@ -25,7 +25,7 @@
 			"",
 			"Gain 1 [D]. *newpara* Rally up to 2 of your units.",
 			"Gain 1 [D].",
-			"Choose 1 of your units and gain that unit’s morale value as shield tokens",
+			"Choose 1 of your units and gain that unit’s morale value as shield tokens.",
 			"Spend 1 [M] to gain 2 [B]. Choose and rout 1 of your units.",
 			"",
 			"Gain 1 (B) and 1 (S). *newpara* Rally 1 of your units.",
@@ -33,7 +33,7 @@
 			"Rally 1 of your units. Draw a combat card."
 		],
 		"unit": [
-			"Custodian/Cruiser: If your opponent suffers damage this execution round they suffer 2 more damage",
+			"Custodian/Cruiser: If your opponent suffers damage this execution round they suffer 2 more damage.",
 			"Custodian/Cruiser: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to choose and rout 1 of their units.",
 			"Custodian/Cruiser: Gain 1 [D].",
 			"Custodian: Spend 1 [M] and choose 1 of your units, during this execution round that unit cannot become routed.",
@@ -43,7 +43,7 @@
 			"Champion/Cruiser: The first time this execution round when an opponent's unit is routed it’s destroyed unless your opponent spends 2 dice of his choice when 1 of their units is routed.",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
 			"Captain: Spend 1 [B] to gain 3 (B). Your opponent may spend 1 [M] to retreat up to 3 units.",
-			"Captain/Moiraideis: Gain 2 (S). *newpara* You may reroll up to 2 [B]",
+			"Captain/Moiraideis: Gain 2 (S). *newpara* You may reroll up to 2 [B].",
 			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
 			"Valoris: Play any other combat card from your hand."
