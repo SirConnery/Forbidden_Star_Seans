@@ -27,7 +27,7 @@
 			"Gain 1 [D].",
 			"Choose 1 of your units and gain that unit’s morale value as shield tokens.",
 			"Spend 1 [M] to gain 2 [B]. Choose and rout 1 of your units.",
-			"",
+			"Gain 2 (S).",
 			"Gain 1 (B) and 1 (S). *newpara* Rally 1 of your units.",
 			"Gain 2 [D].",
 			"Rally 1 of your units. Draw a combat card."
@@ -43,7 +43,7 @@
 			"Champion/Cruiser: The first time this execution round when an opponent's unit is routed it’s destroyed unless your opponent spends 2 dice of his choice when 1 of their units is routed.",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
 			"Captain: Spend 1 [B] to gain 3 (B). Your opponent may spend 1 [M] to retreat up to 3 units.",
-			"Captain/Moiraideis: Gain 2 (S). *newpara* You may reroll up to 2 [B].",
+			"Captain/Moiraideis: You may reroll up to 2 [B].",
 			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
 			"Valoris: Play any other combat card from your hand."
@@ -51,7 +51,7 @@
 	},
 	"ordersText": {
 		"title": [
-			"GUARDS OF THE EMPEROR",
+			"EMPEROR'S GUARDS",
 			"HEROIC INTERVENTION",
 			"EMPEROR'S WILL",
 			"DEEP STRIKE",
@@ -59,9 +59,9 @@
 		],
 		"general": [
 			"When discarding order tokens in combat gain an extra shield or attack token. ",
-			"After resolving a Dominate Order resolve an Advance Order in the active sector. Limit once per turn. *newline* LIMIT ONCE PER ROUND.",
+			"After resolving a Dominate Order resolve an Advance Order in the active sector. *newline* LIMIT ONCE PER ROUND.",
 			"After resolving this order treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
-			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take an Custodian Guard from any world and place them on that world. *newline* LIMIT ONCE PER ROUND.",
+			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order, choose 1 unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},
