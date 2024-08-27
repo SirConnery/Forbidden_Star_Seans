@@ -14,10 +14,7 @@
 			"VOID IN OUR VEINS",
 			"HEARTHS OF FIRE",
 			"ANCESTORS ARE WATCHING",
-			"EYE OF THE ANCESTORS",
-			"CONCUSSIVE BLAST",
-			"IT'S KIN",
-			"RETURN TO ANCESTORS"
+			"EYE OF THE ANCESTORS"
 		],
 		"general": [
 			"Gain 1 (S) for each unrouted Hearthkyn Warrior or Bastion Commerce Vessel to a maximum of 3 (S).",
@@ -33,10 +30,7 @@
 			"Rally 1 of your units. *newpara* Gain 1 [D].",
 			"Gain 2 (B) and 2 (S) unless your opponent spends 1 [M].",
 			"",
-			"Gain 1 [D]. *newpara* Draw a combat card.",
-			"Choose 2 opponent dice and force your opponent to reroll them.",
-			"Gain 1 (B) for each structure and unrouted unit you have in this area up to a max of 3. *newpara* Convert 1 [M] into 1 [S] or 1 [S] into 1 [M].",
-			"You may convert up to 2 [S] or [M] into [B]."
+			"Gain 1 [D]. *newpara* Draw a combat card."
 		],
 		"unit": [
 			"",
@@ -52,10 +46,7 @@
 			"Stronghold: Spend 1 [M] to move 1 Stronghold Vessel or Bastion Vessel from any area to this area.",
 			"Champion/Stronghold: Gain 2 (B) and 2 (S) unless your opponent spends 1 [M].",
 			"Sagitaur/Stronghold: Move any amount of units or ships into this area from any adjacent sectors who have a legal route to this area. For each unit or ship that moved gain 1 (B) or 1 (S). *newpara* You may retreat any number of units or ships after this combat into any number of areas you have a legal route to right before the retreat phase.",
-			"Sagitaur/Stronghold: Choose [B], [S] or [M]. Your opponent loses all of those dice.",
-			"Hearthguard: Force your opponent to lose 1 [M] and 1 (S).",
-			"Bastion/Champion/Stronghold: Gain 1 [S].",
-			"Sagitaur/Stronghold: For any of your units that are destroyed in this combat, gain that unit’s materiel cost reduced by 1 as materiel."
+			"Sagitaur/Stronghold: Choose [B], [S] or [M]. Your opponent loses all of those dice."
 			
 		]
 	},
