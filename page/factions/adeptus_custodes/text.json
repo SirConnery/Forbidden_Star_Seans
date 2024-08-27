@@ -51,14 +51,14 @@
 	},
 	"ordersText": {
 		"title": [
-			"EMPEROR'S GUARDS",
+			"GUARDS OF THE EMPEROR",
 			"HEROIC INTERVENTION",
 			"EMPEROR'S WILL",
 			"DEEP STRIKE",
 			"EMPEROR'S CALL"
 		],
 		"general": [
-			"When discarding order tokens in combat gain an extra shield or attack token. ",
+			"When discarding order tokens in combat gain an extra (B) or (S) for each order token discarded. ",
 			"After resolving a Dominate Order resolve an Advance Order in the active sector. *newline* LIMIT ONCE PER ROUND.",
 			"After resolving this order treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
 			"When resolving an advance order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world. *newline* LIMIT ONCE PER ROUND.",
