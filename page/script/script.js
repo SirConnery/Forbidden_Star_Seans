@@ -110,25 +110,25 @@ document.addEventListener('DOMContentLoaded', function () {
 			's-section': files.combat.slice(0, 5),
 			't1-section': files.combat.slice(5, 9),
 			't2-section': files.combat.slice(9, 12),
-			't3-section': files.combat.slice(12, 17)
+			't3-section': files.combat.slice(12, 14)
 		};
 		const titles = {
 			's-section': textData.combatText.title.slice(0, 5),
 			't1-section': textData.combatText.title.slice(5, 9),
 			't2-section': textData.combatText.title.slice(9, 12),
-			't3-section': textData.combatText.title.slice(12, 17)
+			't3-section': textData.combatText.title.slice(12, 14)
 		};
 		const generalText = {
 			's-section': textData.combatText.general.slice(0, 5),
 			't1-section': textData.combatText.general.slice(5, 9),
 			't2-section': textData.combatText.general.slice(9, 12),
-			't3-section': textData.combatText.general.slice(12, 17)
+			't3-section': textData.combatText.general.slice(12, 14)
 		};
 		const unitText = {
 			's-section': textData.combatText.unit.slice(0, 5),
 			't1-section': textData.combatText.unit.slice(5, 9),
 			't2-section': textData.combatText.unit.slice(9, 12),
-			't3-section': textData.combatText.unit.slice(12, 17)
+			't3-section': textData.combatText.unit.slice(12, 14)
 		};
 		Object.keys(sections).forEach(section => {
 			const sectionContainer = document.createElement('div');
