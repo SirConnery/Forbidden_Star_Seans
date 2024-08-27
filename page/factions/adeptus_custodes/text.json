@@ -78,12 +78,12 @@
 		],
 		"general": [
 			"Gain 2 materiel. *newpara* Move 1 friendly unit from any world into any friendly world with a city.",
-			"Place a ship in any uncontrolled or friendly void in a sector you have units or buildings in.",
+			"Place a Classified Cruiser in any uncontrolled or friendly void in a sector you have units or buildings in or gain 1 materiel.",
 			"Place a reinforcement token on any friendly or unoccupied world that contains one of your enemies objective token. That reinforcement token counts as a Custodian Guard for all game effects, except it may not be moved. If it retreats or is forced to move it’s instead destroyed.",
-			"Place a free bastion on any friendly world.",
+			"Place a free bastion on any friendly world not containing a structure.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this battle.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to force your opponent to lose 1 [S] at the start of each execution round in this battle.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* Instead of revealing an order during the Operations Phase, you may discard this card to look at any order at the top of the stack and then place it back.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (B) at the start of each execution round in this battle.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* Instead of revealing an order during the Operations Phase, you may discard this card to look at any order on the top of order the stack and then place it back.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to rally 1 unit each time you gain any (B) or (S) in this combat."
 		],
 		"type": [
