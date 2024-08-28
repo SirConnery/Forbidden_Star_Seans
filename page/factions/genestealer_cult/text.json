@@ -34,7 +34,7 @@
 		],
 		"unit": [
 			"Neophyte: Gain 1 (B) or 1 (S) for each [M] you have up to a max of 3. You can choose a mix of (B) and (S) to gain.",
-			"Neophyte: Reduce damage suffered in the next execution round by 1.",
+			"Neophyte: In the next execution round reduce damage suffered by you by 1.",
 			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of their units unless they spend 1 [M].",
 			"Neophyte: When an enemy unit is routed during this execution round it is destroyed unless your opponent spends 1 [S].",
 			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",

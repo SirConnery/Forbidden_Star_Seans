@@ -17,7 +17,7 @@
 			"title_14"
 		],
 		"general": [
-			"Choose 2 opponent dice and force your opponent to reroll them.",
+			"Choose 2 opponent dice, your opponent must reroll those dice.",
 			"Gain 1 (B) for each structure and unrouted unit you have in this area up to a max of 3. *newpara* Convert 1 [M] into 1 [S] or 1 [S] into 1 [M].",
 			"You may convert up to 2 [S] or [M] into [B].",
 			"general_4",
@@ -33,7 +33,7 @@
 			"general_14"
 		],
 		"unit": [
-			"Hearthguard: Force your opponent to lose 1 [M] and 1 (S).",
+			"Hearthguard/Bastion Vessel: Force your opponent to lose 1 [M] and 1 (S).",
 			"Bastion/Champion/Stronghold: Gain 1 [S].",
 			"Sagitaur/Stronghold: For any of your units that are destroyed in this combat, gain that unit’s materiel cost reduced by 1 as materiel.",
 			"unit_4",
