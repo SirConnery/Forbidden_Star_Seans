@@ -30,7 +30,7 @@
 			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
 			"Gain 1 [D].",
 			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
-			"Gain 1[D]. *newpara* Your opponent loses all tokens gained and cannot gain any more tokens this execution round."
+			"Gain 1 [D]. Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round."
 		],
 		"unit": [
 			"Tzaangor Shaman/Vessel: Gain 1 [D] or 2 (S).",
@@ -46,7 +46,7 @@
 			"Sorcerer/Larger Vessel: If 1 of your units is destroyed this combat round you may instead rout them.",
 			"Sorcerer/Larger Vessel: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
 			"Terminator/Larger Vessel: Gain 1 (B) for each unit in this battle.",
-			"Terminator/Larger Vessel: Spend up to 2 dice of your choice and gain 1 [B], [S] or [M] for each dice spent. *newpara* Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round."
+			"Terminator/Larger Vessel: If you are attacking, resolve the suffer damage step of this execution round for your opponent now. Then continue resolving this execution round normally. Do not resolve the suffer damage step for your opponent in this execution round."
 		]
 	},
 	"ordersText": {
