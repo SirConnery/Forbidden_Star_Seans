@@ -58,11 +58,11 @@
 			"EMPEROR'S CALL"
 		],
 		"general": [
-			"When discarding order tokens in combat gain an extra (B) or (S) for each order token discarded. ",
+			"When discarding order tokens in combat, you may gain an extra (B) or (S) for each order token discarded. ",
 			"When you reveal this order token, you may resolve it as if it were an Advance Order instead. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, treat all empty worlds that do not contain your objective tokens as friendly worlds for the rest of the game.",
 			"While resolving this order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world. *newline* LIMIT ONCE PER ROUND.",
-			"When you reveal this order token, choose 1 unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
+			"When you reveal this order token, you may choose 1 unit in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},
 	"eventsText": {
