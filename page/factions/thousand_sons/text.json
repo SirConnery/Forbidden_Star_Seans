@@ -26,11 +26,11 @@
 			"Gain 1 [B], 1 [S] or 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of their units.",
 			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a free Tzaangor Enlightened in this world after the assess damage step.",
 			"Choose a friendly unit in this area and place it in any other friendly area that has a non-routed Tzaangor Shaman. Take that Tzaangor Shaman and place it in this area.",
-			"If any of your ground units are destroyed this turn instead place them routed in any friendly world with a city.",
+			"If any of your ground units are destroyed in this execution round instead place them routed in any friendly world with a city.",
 			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
 			"Gain 1 [D].",
 			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
-			"Gain 1 [B] or 1 [S]. Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round."
+			"Gain 1 [B] or 1 [S]. Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round in this combat."
 		],
 		"unit": [
 			"Tzaangor Shaman/Vessel: Gain 1 [D] or 2 (S).",
@@ -42,10 +42,10 @@
 			"Tzaangor Shaman/Tzaangor Enlightened/Vessel: Force your opponent to retreat 1 of their routed units.",
 			"Tzaangor Enlightened: Destroy a Tzaangor Shaman to gain 2 [D].",
 			"Tzaangor Shaman/Vessel: Spend 1 [B] and 1 [S] to gain 1 [M] and 2 (S).",
-			"Sorcerer: Destroy a Tzaangor Enlightened and place 2 free Tzaangor Shamans in this world or destroy a Unknown Larger Vessel to place up to 3 Unknown Vessels here.",
-			"Sorcerer/Larger Vessel: If 1 of your units is destroyed this combat round you may instead rout them.",
-			"Sorcerer/Larger Vessel: Spend 1 [M] to force your opponent to destroy one of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
-			"Terminator/Larger Vessel: Gain 1 (B) for each unit in this battle.",
+			"Sorcerer: Destroy 1 Tzaangor Enlightened to place 2 free Tzaangor Shamans in this world.",
+			"Sorcerer/Larger Vessel: If 1 of your units is destroyed this execution round you may instead rout them.",
+			"Sorcerer/Larger Vessel: Spend 1 [M] to force your opponent to choose and destroy 1 of their command level 0 units unless they spend 2 [M]. Or spend 1 [M] to destroy an opponent routed command level 1 unit.",
+			"Terminator/Larger Vessel: Gain 1 (B) for every 2 units in this battle.",
 			"Terminator/Larger Vessel: If you are attacking, resolve the suffer damage step of this execution round for your opponent now. Then continue resolving this execution round normally. Do not resolve the suffer damage step for your opponent in this execution round."
 		]
 	},
