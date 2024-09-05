@@ -27,7 +27,7 @@
 			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a free Tzaangor Enlightened in this world after the assess damage step.",
 			"Choose 1 of your units in this world and place it in any other world that has a non-routed Tzaangor Shaman. Take that Tzaangor Shaman and place it in this world.",
 			"If any of your ground units are destroyed in this execution round instead place them routed in any friendly world with a city.",
-			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round.",
+			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round up to a maximum of 4.",
 			"Gain 1 [D].",
 			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
 			"Gain 1 [B] or 1 [S]. Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round in this combat."
@@ -38,7 +38,7 @@
 			"Tzaangor Shaman/Vessel: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of their units unless they choose and spend 1 of their dice. If they retreated a unit they gain 1 [D].",
 			"Tzaangor Shaman: If any of your units are destroyed this execution round place a free Tzaangor Shaman in this world after the assess damage step of this execution round.",
 			"Tzaangor Shaman/Vessel: Choose a faceup combat card in your play area, gain the icons on that combat card as dice.",
-			"Tzaangor Shaman/Tzaangor Enlightened: Gain 1 (B) for each Tzaangor Shaman and Tzaangor Enlightened.",
+			"Tzaangor Shaman: Gain 1 (B) for each unrouted Tzaangor Shaman",
 			"Tzaangor Shaman/Tzaangor Enlightened/Vessel: Force your opponent to retreat 1 of their routed units.",
 			"Tzaangor Enlightened: Destroy a Tzaangor Shaman to gain 2 [D].",
 			"Tzaangor Shaman/Vessel: Spend 1 [B] and 1 [S] to gain 1 [M] and 2 (S).",
@@ -58,8 +58,8 @@
 			"title_5"
 		],
 		"general": [
-			"After you resolve this order, you may place one of your orders that's on top of the stack into any sector adjacent to it that has no other order tokens. *newline* LIMIT ONCE PER ROUND.",
-			"When you reveal this order token, you may choose 2 friendly units in any one world and place them in any friendly cities in the active sector. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may place one of your orders that's on top of the stack into any system adjacent to it that has no other order tokens. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, you may choose 2 friendly units in any one world and place them in any friendly cities in the active system. *newline* LIMIT ONCE PER ROUND.",
 			"While resolving this order and starting a combat, when 1 of your units in that combat is destroyed, you may place that unit back in that area routed. *newline* LIMIT ONCE PER ROUND.",
 			"general_4",
 			"general_5"
@@ -77,13 +77,13 @@
 			"ALTERNATE HISTORY"
 		],
 		"general": [
-			"In the next game round, after the Planning Phase, if you have an unused Strategic Order, you may place 1 of your Strategic Orders faceup on top of any order stack. Resolve this order following regular rules in the Operations Phase.",
+			"In the next game round, after the Planning Phase, if you have an unused Strategize Order, you may place 1 of your Strategic Orders faceup on top of any order stack. Resolve this order following regular rules in the Operations Phase.",
 			"Choose an opponent, they discard an asset token of your choice and you gain that asset token. Then they gain a different asset token of their choice.",
 			"Destroy a Tzaangor Shaman in a friendly world and place a free Tzaangor Enlightened in that world. Then place a free Tzaangor Shaman in any friendly world with a city.",
 			"Choose a player, that player gains the first player token in the next game round.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round you may discard this card and draw 1 Combat Card. There will be an extra combat round in this combat. ",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat you may discard this card to move up to 2 of your units from any one world to this world.",
-			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order in the Operations Phase, you may discard this card to discard 1 of your orders that’s on top of the stack to then place 1 of your unused orders in any sector not containing an order token.",
+			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order in the Operations Phase, you may discard this card to discard 1 of your orders that’s on top of the stack to then place 1 of your unused orders in any system not containing an order token.",
 			"Place this card in your play area and discard all of your other schemes. You may discard this card at the start of combat to replace 1 pair of combat cards in the opponents combat deck with 1 pair of combat cards of the same command level from their upgrade deck."
 		],
 		"type": [
