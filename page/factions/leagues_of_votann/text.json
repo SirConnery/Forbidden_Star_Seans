@@ -28,7 +28,7 @@
 			"Retreat up to 2 units.",
 			"Gain 2 (S).",
 			"Rally 1 of your units. *newpara* Gain 1 [D].",
-			"Gain 2 (B) and 2 (S) unless your opponent spends 1 [M].",
+			"Gain 2 (B) or 2 (S) unless your opponent spends 1 [M].",
 			"",
 			"Gain 1 [D]. *newpara* Draw a combat card."
 		],
@@ -45,7 +45,7 @@
 			"Champion/Stronghold: Choose 1 of your units, in the suffer damage step of this execution round that unit cannot be chosen to suffer damage.",
 			"Stronghold: Spend 1 [M] to move 1 Stronghold Vessel or Bastion Vessel from any area to this area.",
 			"Champion/Stronghold: Gain 2 (B) and 2 (S) unless your opponent spends 1 [M].",
-			"Sagitaur/Stronghold: Move any amount of units or ships into this area from any adjacent sectors who have a legal route to this area. For each unit or ship that moved gain 1 (B) or 1 (S). *newpara* You may retreat any number of units or ships after this combat into any number of areas you have a legal route to right before the retreat phase.",
+			"Sagitaur/Stronghold: Move any amount of units or ships into this area from any adjacent systems who have a legal route to this area. For each unit or ship that moved gain 1 (B) or 1 (S). *newpara* You may retreat any number of units or ships after this combat into any number of areas you have a legal route to right before the retreat phase.",
 			"Sagitaur/Stronghold: Choose [B], [S] or [M]. Your opponent loses all of those dice."
 			
 		]
@@ -61,8 +61,8 @@
 		"general": [
 			"When you use your dominate ability and purchase a combat card, you may spend a forge token to take a second combat card of the same command level you purchased and place it in your combat deck. Then remove a combat card from your combat deck and place it in the combat upgrade deck. LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may move 1 ship in the active system to any adjacent void. This can start combat. *newline* LIMIT ONCE PER ROUND.",
-			"When you reveal this order token, you may gain 1 forge token.",
-			"After you resolve this order, you may spend 1 materiel to place a free bastion in the active sector on a friendly world already containing a bastion. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, you may gain 1 forge token. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may spend 1 materiel to place a free bastion in the active system on a friendly world already containing a bastion. *newline* LIMIT ONCE PER ROUND.",
 			"general_5"
 		]
 	},
@@ -80,7 +80,7 @@
 		"general": [
 			"Gain 2 prosperity tokens, then choose 1 opponent to gain 1 prosperity token.",
 			"Purchase 1 order upgrade, ignore command level restrictions and reduce the upgrade’s materiel cost by 1 for each ship you have.",
-			"Place a free Bastion Commerce Vessel in a friendly or empty void in the sector that contains the Galactic Core. Or pay 2 materiel and a forge token to place a free Stronghold Commerce Vessel there instead.",
+			"Place a free Bastion Commerce Vessel in a friendly or empty void in the system that contains the Galactic Core. Or pay 2 materiel and a forge token to place a free Stronghold Commerce Vessel there instead.",
 			"Gain 2 forge tokens and gain 1 materiel for each forge token that exceeds your maximum asset limit.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* After the Reinforce Step of combat you may discard this card to place 1 free reinforcement token in this world and gain 1 [D].",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of Choose Combat Cards step you may discard this card to play an additional command level 0 card from your hand.",
