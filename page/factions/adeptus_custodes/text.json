@@ -79,10 +79,10 @@
 		"general": [
 			"Gain 2 materiel. *newpara* Move 1 friendly unit from any world into any friendly world with a city.",
 			"Place a Classified Cruiser in any uncontrolled or friendly void in a system you have units or buildings in or gain 1 materiel.",
-			"Place a reinforcement token on any friendly or unoccupied world that contains one of your enemies objective token. That reinforcement token counts as a Custodian Guard for all game effects, except it may not be moved. If it retreats or is forced to move it’s instead destroyed.",
+			"Place a reinforcement token on any friendly or unoccupied world that contains one of your enemies objective token. That reinforcement token counts as a Custodian Guard for all game effects, except it may not be moved and does not count towards your unit limit. If it retreats or is forced to move it’s instead destroyed.",
 			"Place a free bastion on any friendly world not containing a structure.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this battle.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (B) at the start of each execution round in this battle.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this combat.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (B) at the start of each execution round in this combat.",
 			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order during the Operations Phase, you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to rally 1 of your units each time you gain any (B) or (S) in this combat."
 		],
