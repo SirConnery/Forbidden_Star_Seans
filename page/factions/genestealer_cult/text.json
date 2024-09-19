@@ -23,7 +23,7 @@
 			"",
 			"Rally up to 2 Neophyte Hybrids.",
 			"Gain 1 [M]. *newpara* Spend up to 2 [M] and gain 2 (B) for the first [M] spent. Then gain 2 (S) for the second [M] spent.",
-			"Spend 1 [M] to gain 1 [B]. *newpara* Reroll 1 of your dice.",
+			"Spend 1 [M] to gain 1 [B] or spend 1 [B] to gain 1 [M]. *newpara* Reroll 1 of your dice.",
 			"Rally 1 of your units.",
 			"Your opponent loses 1 [S].",
 			"",
@@ -40,9 +40,9 @@
 			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",
 			"Neophyte: Rally 1 of your units.",
 			"Metamorph: Your opponent chooses and destroys 1 of their units unless they spend 1 [S].",
-			"Metamorph: Choose a Hybrid Metamorph. That unit has 3 extra health this execution round.",
+			"Metamorph: Choose a Hybrid Metamorph. That unit has 2 extra health this execution round.",
 			"Metamorph: Gain 2 [M] and your opponent loses 1 [M].",
-			"Purestrain: Spend 2 [M] to choose and destroy an enemy unit. Your opponent gains 1 materiel for each command level the destroyed unit is.",
+			"Purestrain: Spend 2 [M] to choose and destroy an enemy unit. For each command level the destroyed unit is your opponent gains 1 (S) and 1 materiel.",
 			"Purestrain: Spend 1 [M] to force your opponent to choose and retreat a nonrouted command level 0 unit.",
 			"Purestrain: Gain 1 [M]. *newpara* Spend any amount of [M], your opponent loses 1 [B] for each die spent.",
 			"Patriarch: For each unrouted unit you have place 1 free reinforcement token in this area. All your Neophyte Hybrids have only 1 health in this combat.",
@@ -58,11 +58,11 @@
 			"RENOVATION PROJECT"
 		],
 		"general": [
-			"After you resolve one of these orders, in the active system in 1 hostile world that you have a Neophyte Hybrid, you may place a free Neophyte Hybrid in that world. *newline* LIMIT ONCE PER ROUND.",
-			"After you resolve this order, in the active system you may gain any assets from hostile worlds where you have a Neophyte Hybrid. Planet capacity for your units is increased by 1 to a maximum of 5 in all worlds.",
-			"While resolving this order, you may treat all enemy voids as friendly voids for any Neophyte Hybrids moving through it.",
-			"After resolving this order, in the active system you may spend 2 materiel to replace 1 Neophyte Hybrid in any world with a Purestrain Genestealer. Planet capacity for your units is increased by 2 to a maximum of 5 in all worlds.",
-			"After resolving this order, in the active system you may spend 1 materiel to replace 1 of your structures on a friendly world with a different structure. *newline* Planet capacity for your units is increased by 1 to a maximum of 5 in all worlds. "
+			"After you resolve one of these orders, you may place a free Neophyte Hybrid in a hostile world where you already have a Neophyte Hybrid. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may gain any assets from hostile worlds in the active system where you have a Neophyte Hybrid. LIMIT ONCE PER ROUND. Planet capacity for your units is increased by 1 to a maximum of 5 in all worlds.",
+			"While resolving this order, you may treat all enemy voids as friendly voids for any Neophyte Hybrids moving through it. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, you may spend 2 materiel to replace 1 Neophyte Hybrid in any world in the active system with a Purestrain Genestealer. LIMIT ONCE PER ROUND. Planet capacity for your units is increased by 1 to a maximum of 5 in all worlds.",
+			"After resolving this order, in the active system you may spend 1 materiel to replace 1 of your structures on a friendly world with a different structure. LIMIT ONCE PER ROUND. *newline*  Planet capacity for your units is increased by 1 to a maximum of 5 in all worlds."
 		]
 	},
 	"eventsText": {
