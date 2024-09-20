@@ -71,7 +71,7 @@
 			"NEW BREED",
 			"DESIRED ICON",
 			"LOCUS BODYGUARD",
-			"PRIMUS WARPLAN",
+			"PRIMED INSTINCT",
 			"CLAMAVUS PROPAGANDA",
 			"MAGUS MINDREADING",
 			"CULT IS HERE"
@@ -82,9 +82,9 @@
 			"Purchase a combat upgrade with a discount of the number of Neophyte Hybrids you have in a hostile world that has the most Neophyte Hybrids.",
 			"Gain 2 reinforcement tokens.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round if you have 2 or more unrouted Neophyte Hybrids you may discard this card to rout an opponent unit of command level 2 or less.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat in the Roll Dice step you may discard this card to have up to 2 opponent command level 0 units to instead roll their combat value for you.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat in the Roll Dice step you may discard this card to have 1 of your opponent command level 0 units to instead roll their combat value for you.",
 			"Place this card in your play area and discard all of your other schemes. At the start of an execution round if you are attacking you may discard this card to force your opponent to show what card they will play before playing cards. Then gain 1 [B], [S] or [M].",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase you may discard this card to place a free reinforcement token in the combat area. You may then gain 2 [M]."
+			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase you may discard this card to place a free reinforcement token in the combat area. You may then gain 1 [D] or 1 [M]."
 		],
 		"type": [
 			"TACTIC",
