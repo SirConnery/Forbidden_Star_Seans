@@ -10,7 +10,7 @@
 			"INSPIRING LEADER",
 			"NO ESCAPE",
 			"DEFEND OUR HONOR",
-			"BEYOND THE CALL",
+			"THE GOLDEN DEATH",
 			"CAPTAIN'S SHIELD",
 			"SIDE BY SIDE",
 			"PRAISE TO THE EMPEROR",
@@ -37,12 +37,12 @@
 			"Custodian/Cruiser: If you have at least 1 [B] or 1 (B) at the start of the assess damage step of this execution round, force your opponent to choose and rout 1 of their units.",
 			"Custodian/Cruiser: If you suffer damage in this execution round, at the start of the next execution round you may choose to spend 1 [B] to gain 2 (B) or spend 1 [S] to gain 2 (S).",
 			"Custodian: Spend 1 [M] to choose 1 of your units, during this execution round that unit cannot become routed.",
-			"Custodian/Champion/Cruiser: Spend 1 [M] and force your opponent to lose 1 [B] or 1 [M].",
+			"Custodian/Champion/Cruiser: Spend 1 [M] to force your opponent to lose 1 [B] or 1 [M].",
 			"Champion: Gain 1 (B) for each of your opponents unrouted units in excess of the number of your unrouted units.",
 			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
 			"Champion/Cruiser: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 2 dice of his choice.",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
-			"Captain: Choose and rout 1 of your command level 2 units to gain 3 (B).",
+			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
 			"Captain/Moiraideis: You may reroll up to 2 [B].",
 			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
@@ -72,7 +72,7 @@
 			"HETAERON GUARD",
 			"GUARDIANS OF HUMANITY",
 			"EMPEROR'S PROTECTION",
-			"THE GOLDEN DEATH",
+			"THE GOLDEN RULE",
 			"EYES OF THE EMPEROR",
 			"THE TEN THOUSAND"
 		],
@@ -84,7 +84,7 @@
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (S) at the start of each execution round in this combat.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, discard this card to gain 1 (B) at the start of each execution round in this combat.",
 			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order during the Operations Phase, you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to rally 1 of your units each time you gain any (B) or (S) in this combat."
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round discard this card to draw 1 combat card for each order token on top of your event deck."
 		],
 		"type": [
 			"TACTIC",
