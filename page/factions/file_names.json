@@ -1,7 +1,7 @@
 {
   "factions": {
     "folder" : ["adeptus_custodes","genestealer_cult", "leagues_of_votann","thousand_sons", "extra"],
-    "name" : ["Adeptus Custodes", "Genestealer Cult", "Votann", "Votann", "Extra"]
+    "name" : ["Adeptus Custodes", "Genestealer Cult", "Votann", "Thousand Sons", "Extra"]
   } ,
 
   "files": {
