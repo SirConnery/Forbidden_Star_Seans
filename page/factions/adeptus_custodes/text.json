@@ -8,7 +8,7 @@
 			"CALL OF GLORY",
 			"BRAVE CHARGE",
 			"INSPIRING LEADER",
-			"NO ESCAPE",
+			"PURGE THE WEAK",
 			"DEFEND OUR HONOR",
 			"THE GOLDEN DEATH",
 			"CAPTAIN'S SHIELD",
@@ -24,8 +24,8 @@
 			"Gain 1 [D]. *newpara* If your opponent has more unrouted units than you gain 1 [M] or 1 [D].",
 			"Gain 1 [B]. *newpara* Convert 1 [M] into 1 [B].",
 			"Gain 1 [D]. *newpara* Rally up to 2 of your units.",
-			"Gain 1 [D].",
-			"Choose 1 of your units and gain that unit’s morale value as shield tokens.",
+			"Gain 1 [D]. *newpara* For each unrouted command level 0 unit or any unrouted unit your opponent has Gain 1 (B) up to a maximum of 3",
+			"Choose 1 of your units and gain that unit’s morale value as (B) or (S).",
 			"Gain 1 [D]. *newpara* Spend 1 [B] to gain 3 (B). Your opponent may spend 1 [M] to retreat 1 of their units.",
 			"Gain 1 [D]. *newpara* Spend 1 [S] to gain 3 (S).",
 			"Gain 1 [D]. *newpara* Gain 1 (B) or 1 (S). *newpara* Rally 1 of your units.",
@@ -40,7 +40,7 @@
 			"Custodian/Champion/Cruiser: Spend 1 [M] to force your opponent to lose 1 [B] or 1 [M].",
 			"Champion: Gain 1 (B) for each of your opponents unrouted units in excess of the number of your unrouted units.",
 			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
-			"Champion/Cruiser: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 2 dice of his choice.",
+			"Champion/Cruiser: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [B].",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
 			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
 			"Captain/Moiraideis: You may reroll up to 2 [B].",
@@ -51,17 +51,17 @@
 	},
 	"ordersText": {
 		"title": [
-			"GUARDS OF THE EMPEROR",
+			"BLESSING OF THE EMPEROR",
 			"HEROIC INTERVENTION",
 			"EMPEROR'S WILL",
 			"DEEP STRIKE",
 			"EMPEROR'S CALL"
 		],
 		"general": [
-			"When discarding order tokens in combat, you may gain an extra (B) or (S) for the first order token discarded in that execution round. ",
+			"When you start resolving this order, you may place 1 of your unused order tokens on top of your event deck. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may resolve it as if it were an Advance Order instead. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, for the rest of the game treat all empty worlds that do not contain your objective tokens as friendly worlds. *newline* LIMIT ONCE PER GAME.",
-			"While resolving this order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world and gain 1 [D]. *newline* LIMIT ONCE PER ROUND.",
+			"While resolving this order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world to gain 1 [D]. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order token, you may choose 1 of your units in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},
