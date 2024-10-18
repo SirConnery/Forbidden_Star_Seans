@@ -18,7 +18,7 @@
 		],
 		"general": [
 			"Gain 1 [B], 1 [S] or 1 (B). *newpara* Force your opponent to choose and discard a card from their hand.",
-			"Gain 1 (B) for each structure and unrouted unit you have in this area up to a max of 3. *newpara* Convert 1 [M] into 1 [S] or 1 [S] into 1 [M].",
+			"Gain 1 [B] and 1 (B). *newpara* Reroll 1 of your dice.",
 			"You may convert up to 2 [S] or up to 2 [M] into [B].",
 			"general_4",
 			"general_5",
@@ -34,7 +34,7 @@
 		],
 		"unit": [
 			"Hearthguard/Bastion Vessel: Force your opponent to lose 1 [M] and 1 (S).",
-			"Bastion/Champion/Stronghold: Gain 1 [S].",
+			"Champion/Stronghold: Gain 2 (S). *newpara* Spend 2 (S) to place up to 2 of your combat cards from your hand into your combat deck and then draw that many combat cards after shuffling the deck.",
 			"Sagitaur/Stronghold: For any of your units that are destroyed in this combat, gain that unit’s materiel cost reduced by 1 as materiel.",
 			"unit_4",
 			"unit_5",

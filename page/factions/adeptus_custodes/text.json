@@ -13,7 +13,7 @@
 			"THE GOLDEN DEATH",
 			"CAPTAIN'S SHIELD",
 			"SIDE BY SIDE",
-			"PRAISE TO THE EMPEROR",
+			"PRAISE TO THE EMPEROR!",
 			"FERVOR OF TERRA"
 		],
 		"general": [
@@ -45,8 +45,8 @@
 			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
 			"Captain/Moiraideis: You may reroll up to 2 [B].",
 			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
-			"Valoris: For this combat you have a dice limit of 12 dice. You may then resolve the general ability of this card again.",
-			"Valoris: Play any other combat card from your hand."
+			"Valoris: Gain 2 [D] or 2 (B) or 2 (S). *newpara* During this combat your units cannot be routed.",
+			"Valoris: Play any other combat card from your hand except Fervor of Terra."
 		]
 	},
 	"ordersText": {
