@@ -29,7 +29,7 @@
 			"Gain 1 [D]. *newpara* Spend 1 [B] to gain 3 (B). Your opponent may spend 1 [M] to retreat 1 of their units.",
 			"Gain 1 [D]. *newpara* Spend 1 [S] to gain 3 (S).",
 			"Gain 1 [D]. *newpara* Gain 1 (B) or 1 (S). *newpara* Rally 1 of your units.",
-			"Gain 2 [D].",
+			"Gain 3 [D].",
 			"Rally 1 of your units. Draw a combat card."
 		],
 		"unit": [
@@ -45,7 +45,7 @@
 			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
 			"Captain/Moiraideis: You may reroll up to 2 [B].",
 			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
-			"Valoris: When you have 8 dice and would gain any number of any dice, instead choose to gain that number of (B) or (S). Place these tokens separately, they will stay until the end of combat and cannot be removed or chosen to be removed by any game effects in this combat. *newpara* Gain 2 dice.",
+			"Valoris: For this combat you are limited to 12 dice instead. *newpara* Gain 1 [D].",
 			"Valoris: Play any other combat card from your hand except Fervor of Terra."
 		]
 	},
