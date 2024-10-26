@@ -54,15 +54,15 @@
 			"TIME DILATION",
 			"SUMMONING PORTAL",
 			"REVERSE TIME",
-			"title_4",
-			"title_5"
+			"BLAST FROM THE PAST",
+			"WELL-TIMED STRIKE"
 		],
 		"general": [
 			"After you resolve this order, you may place one of your orders that's on top of the stack into any system adjacent to it that has no other order tokens. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may choose 2 friendly units in any one world and place them in any friendly cities in the active system. *newline* LIMIT ONCE PER ROUND.",
 			"While resolving this order and starting a combat, once in this combat at any time 1 of your units in that combat is destroyed, you may place that unit back in that area routed. *newline* LIMIT ONCE PER ROUND.",
-			"general_4",
-			"general_5"
+			"After resolving this orbital strike, you may resolve your faction ability. ",
+			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may add dice from each friendly routed or unrouted ship in this system."
 		]
 	},
 	"eventsText": {
