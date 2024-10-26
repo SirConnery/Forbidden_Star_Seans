@@ -63,7 +63,7 @@
 			"After you resolve this order, you may move 1 ship in the active system to any adjacent void. This can start combat. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may gain 1 forge token. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may spend 2 materiel to place a free bastion in the active system on a friendly world already containing a bastion. *newline* LIMIT ONCE PER ROUND.",
-			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 2 [S] to choose and destroy 1 structure on this world."
+			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 2 [S] to choose and destroy 1 structure on this world. *newline* LIMIT ONCE PER ROUND."
 		]
 	},
 	"eventsText": {
