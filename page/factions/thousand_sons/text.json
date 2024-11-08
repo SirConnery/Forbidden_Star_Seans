@@ -26,9 +26,9 @@
 			"Gain 1 [B], 1 [S] or 1 [M]. *newpara* Convert 1 of your opponent's [B] or [S] into [M].",
 			"Gain 1 [D]. *newpara* If a Tzaangor Shaman is destroyed this execution round place a free Tzaangor Enlightened in this world after the assess damage step.",
 			"Choose 1 of your units in this world and place it in any other world that has a Tzaangor Shaman. *newpara* Take a Tzaangor Shaman from any world and place it in this world.",
-			"If any of your ground units are destroyed in this execution round instead place them routed in any friendly world with a city.",
-			"Gain 2 (B). *newpara* For every damage suffered by you in this execution round gain 1 (B) in the next execution round up to a maximum of 5.",
-			"Spend 1 of your dice to force your opponent to choose and rout 1 of their units. *newpara* Gain 1 [D].",
+			"Gain 2 (B). *newpara* If any of your ground units are destroyed in this execution round instead place them routed in any friendly world with a city.",
+			"For every damage suffered by you in this execution round gain 1 (B) in the next execution round up to a maximum of 5.",
+			"Spend 1 of your dice to force your opponent to choose and rout 1 of their units. *newpara* Convert 1 of your opponent's [B] or [S] into [M]",
 			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
 			"Gain 1 [B] or 1 [S]. Choose either: *newpara* A) Combat ends after 2 execution rounds. *newline* - or - *newline* B) Play an extra execution round in this combat."
 		],
