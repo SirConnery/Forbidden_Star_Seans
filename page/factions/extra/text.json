@@ -1,7 +1,7 @@
 {
 	"combatText": {
 		"title": [
-			"CONCUSSIVE BLAST",
+			"IRON CONCUSSION",
 			"TELEPORT CREST",
 			"RETURN TO ANCESTORS",
 			"title_4",
@@ -17,7 +17,7 @@
 			"title_14"
 		],
 		"general": [
-			"Gain 1 [B], 1 [S] or 1 (B). *newpara* Force your opponent to choose and discard a card from their hand.",
+			"Gain 1 [B], 1 [S] or 1 (B). *newpara* Force your opponent to choose and discard a card from his hand.",
 			"Gain 1 [B] and 1 (B). *newpara* Reroll 1 of your dice.",
 			"You may convert up to 2 [S] or up to 2 [M] into [B].",
 			"general_4",
