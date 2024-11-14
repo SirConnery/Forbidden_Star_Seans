@@ -25,7 +25,7 @@
 			"Gain 2 [M].",
 			"Discard a card from your hand to gain 2 (B).",
 			"Convert 1 [M] into 1 [S]. *newpara* Convert 1 [S] into 1 [M].",
-			"Retreat up to 2 units.",
+			"Retreat up to 2 of your units.",
 			"Gain 1 [S]. *newpara* Spend up to 2 of your [S] to gain 1 (S) for each [S] spent.",
 			"Rally 1 of your units. *newpara* Gain 1 [D], or convert 1 [M] into 1 [B] or 1 [S].",
 			"Gain 2 (B) or 2 (S) unless your opponent spends 1 [M].",
@@ -60,7 +60,7 @@
 		],
 		"general": [
 			"When you use your dominate ability and purchase a combat card, you may spend a forge token to take a second combat card of the same command level you purchased and place it in your combat deck. Then remove a combat card from your combat deck and place it in the combat upgrade deck. *newline* LIMIT ONCE PER ROUND.",
-			"After you resolve this order, you may move 1 ship in the active system to any adjacent void. This can start combat. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may move 1 ship in the active system to any adjacent void. This can start a combat. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may gain 1 forge token. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may spend 2 materiel to place a free bastion in the active system on a friendly world already containing a bastion. *newline* LIMIT ONCE PER ROUND.",
 			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 2 [S] to choose and destroy 1 structure on this world. *newline* LIMIT ONCE PER ROUND."
