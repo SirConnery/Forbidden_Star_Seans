@@ -35,18 +35,18 @@
 		"unit": [
 			"Neophyte: Gain 1 (B) or 1 (S) for each [M] you have up to a max of 3. You can choose a mix of (B) and (S) to gain.",
 			"Neophyte: In the next execution round reduce damage suffered by you by 1.",
-			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of their units unless they spend 1 [M].",
+			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of his units unless he spends 1 [M].",
 			"Neophyte: When an enemy unit is routed during this execution round it is destroyed unless your opponent spends 1 [S].",
 			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",
 			"Neophyte: Rally 1 of your units.",
-			"Metamorph: Your opponent chooses and destroys 1 of their units unless they spend 1 [S].",
+			"Metamorph: Your opponent chooses and destroys 1 of his units unless he spends 1 [S].",
 			"Metamorph: Choose a Hybrid Metamorph. That unit has 2 extra health this execution round.",
 			"Metamorph: Gain 2 [M] and your opponent loses 1 [M].",
 			"Purestrain: Spend 1 [M] to gain 3 (B) or spend 2 [M] to choose and destroy an enemy unit. For each command level the destroyed unit is your opponent gains 1 (S) and 1 materiel.",
 			"Purestrain: Gain 1 [D]. *newpara* Spend 1 [M] to force your opponent to choose and retreat a nonrouted command level 0 unit.",
 			"Purestrain: Gain 1 [M]. *newpara* Spend any amount of [M], your opponent loses 1 [B] for each die spent.",
 			"Patriarch: For each unrouted unit you have place 1 free reinforcement token in this area. All your Neophyte Hybrids have only 1 health in this combat.",
-			"Patriarch: Spend any amount of [M], for each [M] spent force your opponent to choose and rout 1 of their command level 0 or 1 units."
+			"Patriarch: Spend any amount of [M], for each [M] spent force your opponent to choose and rout 1 of his command level 0 or 1 units."
 		]
 	},
 	"ordersText": {
@@ -82,8 +82,8 @@
 			"Purchase a combat upgrade with a discount of the number of Neophyte Hybrids you have in a hostile world that has the most Neophyte Hybrids.",
 			"Gain 2 reinforcement tokens.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, if you have 2 or more unrouted Neophyte Hybrids you may discard this card to rout an opponent unit of command level 2 or less.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat, in the Roll Dice step you may discard this card to have 1 of your opponent command level 0 units to instead roll their combat value for you.",
-			"Place this card in your play area and discard all of your other schemes. At the start of an execution round, if you are attacking you may discard this card to force your opponent to show what card they will play before playing cards. Then gain 1 [B], [S] or [M].",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat, in the Roll Dice step you may discard this card to have 1 of your opponent command level 0 units to instead roll his combat value for you.",
+			"Place this card in your play area and discard all of your other schemes. At the start of an execution round, if you are attacking you may discard this card to force your opponent to show what card he will play before playing cards. Then gain 1 [B], [S] or [M].",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to place a free reinforcement token in the combat area. You may then gain 1 [D] or 1 [M]."
 		],
 		"type": [
