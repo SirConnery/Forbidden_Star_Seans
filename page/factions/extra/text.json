@@ -55,14 +55,14 @@
 			"",
 			"",
 			"",
-			"title_5"
+			"WASTE FEEDS THE VOID"
 		],
 		"general": [
 			"",
 			"",
 			"",
 			"",
-			"general_5"
+			"Enemy bastions do not prevent this orbital strike. During this orbital strike, during this orbital strike gain 1 extra [D] for each of your ships and ignore dice limit restrictions."
 		]
 	},
 	"eventsText": {
@@ -71,7 +71,7 @@
 			"",
 			"",
 			"",
-			"title_5",
+			"NUMBER 9",
 			"title_6",
 			"title_7",
 			"title_8"
@@ -81,7 +81,7 @@
 			"",
 			"",
 			"",
-			"general_5",
+			"Do not resolve the warp storm movement on this card. Draw 2 event cards and then resolve one of those cards including the Warp Storm movement.",
 			"general_6",
 			"general_7",
 			"general_8"

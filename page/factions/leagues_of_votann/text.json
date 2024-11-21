@@ -1,7 +1,7 @@
 {
 	"combatText": {
 		"title": [
-			"WEAVEFIELD PROTECCTION",
+			"WEAVEFIELD PROTECTION",
 			"MEDIPACK SUPPLIES",
 			"CALL FOR BACKUP",
 			"SUPPRESSIVE FIRE",
@@ -18,7 +18,7 @@
 		],
 		"general": [
 			"Gain 1 (S) for each unrouted Hearthkyn Warrior or Bastion Commerce Vessel to a maximum of 3 (S).",
-			"Gain 1 [S]. Your units have 1 extra health this execution round.",
+			"Gain 1 [S]. Increase the health value of all your units in this execution round by 1.",
 			"Spend 1 [S] to place 1 free reinforcement token in this area.",
 			"Gain 1 [B].",
 			"Gain 1 (B). *newpara* At the start of the next execution round gain 2 (B).",

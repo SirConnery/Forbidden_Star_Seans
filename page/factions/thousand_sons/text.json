@@ -36,7 +36,7 @@
 			"Tzaangor/Frigate: Gain 1 [D] or 2 (S).",
 			"Tzaangor/Frigate: Gain 1 [D] and 2 (S).",
 			"Tzaangor/Frigate: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of his units unless he chooses and spends 1 of his dice. If he retreated a unit he gains 1 [D].",
-			"Tzaangor/Frigate: If any of your units are destroyed during this execution round place a free Tzaangor or Rubrician Frigate in this area at the end of the assess damage step.",
+			"Tzaangor/Frigate: If any of your units are destroyed during this execution round place a free Tzaangor or a Rubrician Frigate in this area at the end of the assess damage step.",
 			"Tzaangor/Frigate: Gain 2 (B).",
 			"Tzaangor: Gain 1 (B) for each unrouted Tzaangor.",
 			"Tzaangor/Rubric Marine/Frigate: Force your opponent to retreat 1 of his routed units.",
@@ -74,7 +74,7 @@
 			"STOPPED IN TIME",
 			"PORTAL OF CHANGE",
 			"CHANGE TO VIOLENCE",
-			"ALTERNATE TIMELINE"
+			"WARPED TIMELINE"
 		],
 		"general": [
 			"Place this card in your play area and discard all of your other schemes. After the Planning Phase, you may discard this card to reveal 1 of your Strategize orders from your play area and then place it facedown on top of any order stack.",
