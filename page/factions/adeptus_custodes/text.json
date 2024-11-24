@@ -38,7 +38,7 @@
 			"Custodian/Cruiser: At the start of the next execution round you may choose to spend 1 [B] to gain 2 (B) or spend 1 [S] to gain 2 (S).",
 			"Custodian: Spend 1 [M] to choose 1 of your units, during this execution round that unit cannot become routed.",
 			"Custodian/Champion/Cruiser: Spend 1 [M] to force your opponent to lose 1 [B] or 1 [M].",
-			"Champion: Gain 1 (B) for each of your opponents unrouted units in excess of the number of your unrouted units.",
+			"Champion: Gain 1 (B) for each of your opponents unrouted units.",
 			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
 			"Champion/Cruiser: The first time an enemy unit is routed during this execution round, it is destroyed unless your opponent chooses and routs 1 of his unrouted units.",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
@@ -58,10 +58,10 @@
 			"EMPEROR'S CALL"
 		],
 		"general": [
-			"When you start resolving this order, you may place 1 of your unused order tokens on top of your event deck. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, you may place 1 of your order tokens from your play area onto the top of your event deck. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may resolve it as if it were an Advance Order instead. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, for the rest of the game treat all empty worlds that do not contain your objective tokens as friendly worlds. *newline* LIMIT ONCE PER GAME.",
-			"While resolving this order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token you may also take a Custodian Guard from any world and place it on that world to gain 1 [D]. *newline* LIMIT ONCE PER ROUND.",
+			"While resolving this order and starting a combat in a world, in the reinforcement phase if you place a reinforcement token, you may gain 1 [D] and you may take 1 Custodian Guard from any world and place it on that world. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order token, you may choose 1 of your units in the active system. Rally that unit. You may then move that unit to an adjacent area. This can start a combat. *newline* LIMIT ONCE PER ROUND. "
 		]
 	},

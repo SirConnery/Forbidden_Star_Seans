@@ -29,7 +29,7 @@
 			"",
 			"At the end of this execution round you may convert 1 of your [B] or [S] into [M]. *newpara* Spend 1 [M] to choose and rout an opponent command level 0 or 1 unit.",
 			"Convert 1 [M] into 1 [B]. *newpara* Place 1 free reinforcement token in this area.",
-			"Gain up to 4 [M].",
+			"Gain up to 4 [M] or convert up to 2 of your dice into [M].",
 			"Gain 2 [D] or 2 [M]."
 		],
 		"unit": [
@@ -45,7 +45,7 @@
 			"Purestrain: Spend 1 [M] to gain 3 (B) or spend 2 [M] to choose and destroy an enemy unit. For each command level the destroyed unit is your opponent gains 1 (S) and 1 materiel.",
 			"Purestrain: Gain 1 [D]. *newpara* Spend 1 [M] to force your opponent to choose and retreat a nonrouted command level 0 unit.",
 			"Purestrain: Gain 1 [M]. *newpara* Spend any amount of [M], your opponent loses 1 [B] for each die spent.",
-			"Patriarch: For each unrouted unit you have place 1 free reinforcement token in this area. All your Neophyte Hybrids have only 1 health in this combat.",
+			"Patriarch: Place 2 free reinforcement tokens in this world. Add the morale value of all your routed units to your total moral value at the resolution step of combat.",
 			"Patriarch: Spend any amount of [M], for each [M] spent force your opponent to choose and rout 1 of his command level 0 or 1 units."
 		]
 	},
