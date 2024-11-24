@@ -67,7 +67,7 @@
 	},
 	"eventsText": {
 		"title": [
-			"SUDDEN INVASION",
+			"MISSING SQUADRON",
 			"NEW BREED",
 			"DESIRED ICON",
 			"LOCUS BODYGUARD",
@@ -77,7 +77,7 @@
 			"CULT IS HERE"
 		],
 		"general": [
-			"Start combat in a hostile world where you have at least 1 Neophyte Hybrid, gain 2 [D] in the Roll Dice phase.",
+			"Destroy an enemy unit in a hostile world where you have a Neophyte Hybrid in to place a free Neophyte Hybrid in that world. Your opponent gains the materiel value of the destroyed unit as materiel.",
 			"Destroy 2 Neophyte Hybrids on any one world to place a free Purestrain Genestealer on that world.",
 			"Purchase a combat upgrade with a discount of the number of Neophyte Hybrids you have in a hostile world that has the most Neophyte Hybrids.",
 			"Gain 2 reinforcement tokens.",
