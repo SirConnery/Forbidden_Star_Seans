@@ -38,7 +38,7 @@
 			"Custodian/Cruiser: At the start of the next execution round you may choose to spend 1 [B] to gain 2 (B) or spend 1 [S] to gain 2 (S).",
 			"Custodian: Spend 1 [M] to choose 1 of your units, during this execution round that unit cannot become routed.",
 			"Custodian/Champion/Cruiser: Spend 1 [M] to force your opponent to lose 1 [B] or 1 [M].",
-			"Champion: Gain 1 (B) for each of your opponents unrouted units.",
+			"Champion: Gain 1 (B) for each of your opponents unrouted units in excess of your unrouted units.",
 			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
 			"Champion/Cruiser: The first time an enemy unit is routed during this execution round, it is destroyed unless your opponent chooses and routs 1 of his unrouted units.",
 			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
