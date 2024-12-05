@@ -25,7 +25,7 @@
 			"Gain 1 [B]. *newpara* Convert 1 [M] into 1 [B].",
 			"Gain 1 [D]. *newpara* Rally up to 2 of your units.",
 			"For each unrouted command level 0 unit and any routed unit your opponent has, gain 1 (B) up to a maximum of 3.",
-			"Choose 1 of your routed or unrouted units and gain that unit’s morale value as (B) or (S).",
+			"Choose 1 of your units and gain that unit’s morale value as (B) or (S).",
 			"Gain 1 [D]. *newpara* Spend 1 [B] to gain 3 (B). Your opponent may spend 1 [M] to retreat 1 of his units.",
 			"Gain 1 [D] or 1 (S). *newpara* Gain 1 [D] unless your opponent chooses and retreats 1 of his units.",
 			"Gain 1 [D]. *newpara* Gain 1 (B) or 1 (S). *newpara* Rally 1 of your units.",
@@ -41,10 +41,10 @@
 			"Champion: Gain 1 (B) for each of your opponents unrouted units in excess of your unrouted units.",
 			"Champion/Cruiser: Convert 1 of your [M] into 1 [B] or 1 [S].",
 			"Champion/Cruiser: The first time an enemy unit is routed during this execution round, it is destroyed unless your opponent chooses and routs 1 of his unrouted units.",
-			"Custodian/Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
+			"Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
 			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
 			"Captain/Moiraideis: You may reroll up to 2 [B].",
-			"Captain/Moiraideis: You may retreat any amount of units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
+			"Captain/Moiraideis: You may retreat up to 2 of your units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. *newpara* Gain 1 [D].",
 			"Valoris: Play any other combat card from your hand except Fervor of Terra."
 		]
@@ -77,13 +77,13 @@
 			"THE TEN THOUSAND"
 		],
 		"general": [
-			"Gain 1 prosperity token. *newpara* Move 1 friendly unit from any world into any friendly world with a city.",
+			"Gain 1 asset of your choice. *newpara* Move 1 friendly unit from any world into any friendly world with a city.",
 			"Place 1 free Classified Cruiser in any uncontrolled or friendly void in a system you have units or buildings in or gain 1 materiel.",
-			"Move 1 of your Custodian Guards to any friendly world.",
+			"You may take 1 of your Custodian Guards from any world and place them on a friendly world containing a structure or a unit.",
 			"Spend 2 materiel to place a free bastion on any friendly world not containing a structure.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to gain 1 (S) at the start of each execution round in this combat.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to gain 1 (B) at the start of each execution round in this combat.",
-			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order during the Operations Phase, you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
+			"Place this card in your play area and discard all of your other schemes. During the Planning Phase, before placing 1 of your orders you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, you may discard this card to draw 1 combat card for each order token on top of your event deck."
 		],
 		"type": [
