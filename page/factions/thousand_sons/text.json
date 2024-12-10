@@ -17,7 +17,7 @@
 			"DUST STORM"
 		],
 		"general": [
-			"Gain 1 (B) or 1 (S). *newpara* If you are attacking, your opponent discards his facedown combat card and chooses a different card to play face down. At the end of this execution round he may draw his discarded combat card.",
+			"Gain either 1 (B) or 1 (S). *newpara* If you are attacking, your opponent discards his facedown combat card and chooses a different card to play face down. At the end of this execution round he may draw his discarded combat card.",
 			"If you are attacking, gain 1 [D] and in the next execution round the defender plays his card first. *newpara* If you are defending you may play any other card from your hand. Do not resolve the unit ability on this card if done so.",
 			"Gain 1 [D]. *newpara* Reroll 2 of your dice. Then your opponent rerolls 2 dice of your choice.",
 			"Convert 1 [B] into [M]",
@@ -27,20 +27,20 @@
 			"Gain 1 [D]. *newpara* If a Rubric Marine is destroyed in this execution round place a free Rubric Marine in this world at the end of the assess damage step.",
 			"Choose 1 of your units in this world and place it in any other world that has a friendly unit. *newpara* Take a Tzaangor or a Rubric Marine from any world and place it in this world to gain 1 [D].",
 			"Gain 2 (B). *newpara* If any of your ground units are destroyed in this execution round instead place them routed in any friendly world with a city.",
-			"Gain 2 (B), or for every damage suffered by you in this execution round gain 1 (B) in the next execution round up to a maximum of 5.",
+			"Either gain 2 (B), or for every damage suffered by you in this execution round gain 1 (B) in the next execution round up to a maximum of 5.",
 			"Spend 1 of your dice to force your opponent to choose and rout 1 of his units. *newpara* Convert 1 of your opponent's dice into [M].",
 			"Gain 1 [D]. *newpara* Your opponent rerolls up to 3 dice of your choice.",
 			"Gain 2 (S)."
 		],
 		"unit": [
-			"Tzaangor/Frigate: Gain 1 [D] or 2 (S).",
+			"Tzaangor/Frigate: Gain either 1 [D] or 2 (S).",
 			"Tzaangor/Frigate: Gain 1 [D] and 2 (S).",
 			"Tzaangor/Frigate: Gain 1 [D] and retreat 1 of your units. *newpara* Force your opponent to retreat 1 of his units unless he chooses and spends 1 of his dice. If he retreated a unit he gains 1 [D].",
 			"Tzaangor/Frigate: If any of your units are destroyed during this execution round place a free Tzaangor or a Rubrician Frigate in this area at the end of the assess damage step.",
 			"Tzaangor/Frigate: Gain 2 (B).",
 			"Tzaangor/Frigate: Gain 1 (B) for each of your unrouted command level 0 units up to a maximum of 3.",
 			"Tzaangor/Rubric Marine/Frigate: Force your opponent to retreat 1 of his routed units.",
-			"Rubric Marine/Frigate: Gain 1 [D] or 2 (B).",
+			"Rubric Marine/Frigate: Gain either 1 [D] or 2 (B).",
 			"Tzaangor/Rubric Marine/Frigate: Spend 1 [B] to gain 1 [M]. *newpara* Spend 1 [S] to gain 2 (S).",
 			"Sorcerer: Increase the health value of Rubric Marines in this execution round by 1. *newpara* Destroy 1 Rubric Marine to place 2 free Tzaangors in this world.",
 			"Sorcerer/Silver Tower: Increase the health value of Rubric Marines in this execution round by 1. *newpara* When 1 of your units is destroyed in this execution round you may instead spend 1 of your dice to rout them.",
@@ -78,7 +78,7 @@
 		],
 		"general": [
 			"Place this card in your play area and discard all of your other schemes. After the Planning Phase, you may discard this card to reveal 1 of your Strategize orders from your play area and then place it facedown on top of any order stack.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* When a Rubric Marine is destroyed, you may discard this card to place 1 free Rubric Marine in that world.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* When a Rubric Marine is destroyed in a world, you may discard this card to place 1 free Rubric Marine in that world.",
 			"Place this card in your play area and discard all of your other schemes. You may discard this card after resolving a combat card to resolve the suffer damage step of this execution round for your opponent now. Resolve the rest of this execution round normally but ignore the suffer damage step for your opponent in this execution round.",
 			"Place this card in your play area and discard all of your other schemes. At the end of a game round, you may discard this card to choose a player, that player gains the first player token at the start of the next game round.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, you may discard this card to choose an opponent faceup combat card, your opponent draws that combat card into his hand.",
