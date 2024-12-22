@@ -45,7 +45,7 @@
 			"Champion/Stronghold: Gain 1 [S] and 1 [M].",
 			"Stronghold: Move 1 of your routed or unrouted ships from this area to any other friendly area. *newpara* Move 1 of your unrouted ships from any area to this area.",
 			"Champion/Stronghold: Gain 2 (B) and 2 (S) unless your opponent spends 1 [M].",
-			"Sagitaur/Stronghold: Move up to 2 of your units or ships into this area from any adjacent systems who have a legal route to this area. For each unit or ship that moved gain either 2 (B) or 2 (S). *newpara* At the start of the resolution phase you may move any units or ships from this area into any number of friendly or uncontrolled areas you have a legal route to.",
+			"Sagitaur/Stronghold: Move up to 2 of your units into this area from any adjacent systems who have a legal route to this area. For each unit that moved gain either 2 (B) or 2 (S). *newpara* At the start of the resolution phase you may move any of your units from this area into any number of friendly or uncontrolled areas in this or adjacent systems you have a legal route to.",
 			"Sagitaur/Stronghold: Choose [B], [S] or [M]. Your opponent loses all of those dice."
 			
 		]
