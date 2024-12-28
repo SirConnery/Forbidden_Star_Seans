@@ -43,7 +43,7 @@
 			"Champion/Cruiser: The first time an enemy unit is routed during this execution round, it is destroyed unless your opponent chooses and routs 1 of his unrouted units.",
 			"Champion/Cruiser: Choose 1 of your units, at the end of the assess damage step of this execution round if that unit is routed rally that unit.",
 			"Captain: Choose and rout 1 of your unrouted command level 2 units to gain 3 (B).",
-			"Captain/Moiraideis: Choose 1 of your units, that unit may not be destroyed by abilities on cards this turn. *newpara* You may reroll either 1 of your [B] or [M].",
+			"Captain/Moiraideis: Choose 1 of your units, that unit may not be destroyed by abilities on cards during this execution round. *newpara* You may reroll either 1 of your [B] or [M].",
 			"Captain/Moiraideis: You may retreat up to 2 of your units, gain 2 (B) for each unit that retreated. Then rally 1 of your units that retreated.",
 			"Valoris: For this combat you have a dice limit of 12 dice. *newpara* Gain 1 [D].",
 			"Valoris: Play any other combat card from your hand except Fervor of Terra."
