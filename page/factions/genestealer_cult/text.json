@@ -25,7 +25,7 @@
 			"Gain 1 [M]. *newpara* Spend up to 2 [M] and gain 2 (B) for the first [M] spent. Then gain 2 (S) for the second [M] spent.",
 			"Either spend 1 [M] to gain 1 [B] or spend 1 [B] to gain 1 [M]. *newpara* Reroll 1 of your dice.",
 			"Rally 1 of your units.",
-			"Gain 2 (B) or force your opponent to lose 1 [S].",
+			"Either gain 2 (B) or force your opponent to lose 1 [S].",
 			"",
 			"At the end of this execution round you may convert either 1 of your [B] or [S] into [M]. *newpara* Spend 1 [M] to choose and rout an opponent command level 0 or 1 unit.",
 			"Convert 1 [M] into [B]. *newpara* Place 1 free reinforcement token in this area.",
@@ -40,7 +40,7 @@
 			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",
 			"Neophyte: Rally 1 of your units.",
 			"Metamorph: Your opponent chooses and destroys 1 of his units unless he spends 1 [S].",
-			"Metamorph: Choose a Hybrid Metamorph. That unit has 2 extra health this execution round.",
+			"Metamorph: Choose a Hybrid Metamorph. Increase the health value of that unit in this execution round by 1.",
 			"Metamorph: Gain 2 [M] and your opponent loses 1 [M].",
 			"Purestrain: Either spend 1 [M] to gain 3 (B) or spend 2 [M] to choose and destroy 1 enemy unit. For each command level the destroyed unit is your opponent gains 1 (S) and 1 materiel.",
 			"Purestrain: Gain 1 [D]. *newpara* Spend 1 [M] to force your opponent to choose and retreat an unrouted command level 0 unit.",
@@ -58,8 +58,8 @@
 			"CULTURAL INFLUENCE"
 		],
 		"general": [
-			"When you reveal this order token, you may spend 1 materiel to place a free Neophyte Hybrid in any system into a friendly or hostile world where you already have a Neophyte Hybrid. *newline* LIMIT ONCE PER ROUND.",
-			"After you resolve this order, in the active system, you may gain assets from any hostile worlds that you have a Neophyte Hybrid in. LIMIT ONCE PER ROUND. Planet capacity for your units is increased by 1 to a max of 5 in all worlds.",
+			"When you reveal this order token, you may spend 1 materiel to place a free Neophyte Hybrid in any system into either a friendly or a hostile world where you already have a Neophyte Hybrid. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may gain assets in the active system from any hostile worlds that you have a Neophyte Hybrid in. LIMIT ONCE PER ROUND. Planet capacity for your units is increased by 1 to a max of 5 in all worlds.",
 			"While resolving this order, you may treat all enemy voids as friendly voids for any Neophyte Hybrids moving through it. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may spend 2 materiel to replace 1 Neophyte Hybrid in any world in the active system with a free Purestrain Genestealer. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may spend 1 materiel to replace 1 of your structures on a friendly world in the active system with a different structure. LIMIT ONCE PER ROUND. *newline* Planet capacity for your units is increased by 1 to a max of 5 in all worlds."
@@ -80,7 +80,7 @@
 			"Destroy an enemy unit in a hostile world containing a Neophyte Hybrid to place 1 free Neophyte Hybrid in that world. Your opponent gains the materiel value of the destroyed unit as materiel.",
 			"Destroy 1 Neophyte Hybrid on any friendly world to place 1 free Purestrain Genestealer on that world.",
 			"Purchase a combat upgrade, reducing it's materiel cost by 1 for each Neophyte Hybrid you have in a hostile world that has the most Neophyte Hybrids.",
-			"Gain either 1 materiel or choose a hostile world you have a Neophyte Hybrid in. Gain assets from that world.",
+			"Either gain 1 materiel or choose a hostile world you have a Neophyte Hybrid in. Gain assets from that world.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, if you have 2 or more unrouted Neophyte Hybrids you may discard this card to rout an opponent unit of command level 2 or less.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat, in the Roll Dice step you may discard this card to have 1 of your opponent command level 0 units to instead roll his combat value for you.",
 			"Place this card in your play area and discard all of your other schemes. At the start of an execution round, if you are attacking you may discard this card to force your opponent to show what card he will play before playing cards. Then gain 1 [B], [S] or [M].",
