@@ -24,7 +24,7 @@
 			"Gain 1 (B). *newpara* At the start of the next execution round gain 2 (B).",
 			"Gain 2 [M].",
 			"Discard a card from your hand to gain 2 (B).",
-			"Convert 1 [M] into [S]. *newpara* Convert 1 [S] into [M].",
+			"Either convert 1 [S] into [M] or convert 1 [M] into [S].",
 			"Retreat up to 2 of your units.",
 			"Gain 1 [S]. *newpara* Spend up to 2 of your [S] to gain 1 (S) for each [S] spent.",
 			"Rally 1 of your units. *newpara* Either gain 1 [D] or convert 1 [M] into either [B] or [S].",
