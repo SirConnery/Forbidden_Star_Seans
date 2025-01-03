@@ -27,7 +27,7 @@
 			"Rally 1 of your units.",
 			"Either gain 2 (B) or force your opponent to lose 1 [S].",
 			"",
-			"At the end of this execution round you may convert either 1 of your [B] or [S] into [M]. *newpara* Spend 1 [M] to choose and rout an opponent command level 0 or 1 unit.",
+			"At the end of this execution round you may convert either 1 of your [B] or [S] into [M]. *newpara* Spend 1 [M] to choose and rout an opponent command level 0 or command level 1 unit.",
 			"Convert 1 [M] into [B]. *newpara* Place 1 free reinforcement token in this area.",
 			"Either gain up to 4 [M] or convert up to 4 of your dice into [M].",
 			"Either gain 2 [D] or 2 [M]."
@@ -36,7 +36,7 @@
 			"Neophyte: Gain either 1 (B) or 1 (S) for each [M] you have up to a max of 3. You can choose a mix of (B) and (S) to gain.",
 			"Neophyte: In the next execution round reduce damage suffered by you by 1.",
 			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of his units unless he spends 1 [M].",
-			"Neophyte: When an enemy unit is routed during this execution round it is destroyed unless your opponent spends 1 [S].",
+			"Neophyte: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [S].",
 			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",
 			"Neophyte: Rally 1 of your units.",
 			"Metamorph: Your opponent chooses and destroys 1 of his units unless he spends 1 [S].",
@@ -58,7 +58,7 @@
 			"CULTURAL INFLUENCE"
 		],
 		"general": [
-			"When you reveal this order token, you may spend 1 materiel to place a free Neophyte Hybrid into either a friendly or a hostile world where you already have a Neophyte Hybrid. *newline* LIMIT ONCE PER ROUND.",
+			"When you reveal this order token, you may spend 1 materiel to place 1 free Neophyte Hybrid on either a friendly or a hostile world where you already have a Neophyte Hybrid. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may gain assets in the active system from any hostile worlds that you have a Neophyte Hybrid in. LIMIT ONCE PER ROUND. Planet capacity for your units is increased by 1 to a max of 5 in all worlds and affects your faction ability.",
 			"While resolving this order, you may treat all enemy voids as friendly voids for any Neophyte Hybrids moving through it. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may spend 3 materiel to replace 1 Neophyte Hybrid in any world in the active system with a free Purestrain Genestealer. This can start a combat. *newline* LIMIT ONCE PER ROUND.",
@@ -77,7 +77,7 @@
 			"CULT IS HERE"
 		],
 		"general": [
-			"Destroy an enemy unit in a hostile world containing a Neophyte Hybrid to place 1 free Neophyte Hybrid in that world. Your opponent gains the materiel value of the destroyed unit as materiel.",
+			"Destroy 1 enemy unit in a hostile world containing a Neophyte Hybrid to place 1 free Neophyte Hybrid in that world. Your opponent gains the materiel value of the destroyed unit as materiel.",
 			"Destroy 1 Neophyte Hybrid on any friendly world to place 1 free Purestrain Genestealer on that world.",
 			"Purchase a combat upgrade, reducing it's materiel cost by 1 for each Neophyte Hybrid you have in a hostile world that has the most Neophyte Hybrids.",
 			"Either gain 1 materiel or choose a hostile world you have a Neophyte Hybrid in. Gain assets from that world.",
