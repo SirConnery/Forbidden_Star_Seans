@@ -28,7 +28,7 @@
 			"Either gain 2 (B) or force your opponent to lose 1 [S].",
 			"",
 			"At the end of this execution round you may convert either 1 of your [B] or [S] into [M]. *newpara* Spend 1 [M] to choose and rout an opponent command level 0 or command level 1 unit.",
-			"Convert 1 [M] into [B]. *newpara* Place 1 free reinforcement token in this area.",
+			"Convert 1 [M] into [B]. *newpara* Spend 1 [B[ to place 1 free reinforcement token in this area.",
 			"Either gain up to 4 [M] or convert up to 4 of your dice into [M].",
 			"Either gain 2 [D] or 2 [M]."
 		],
@@ -37,7 +37,7 @@
 			"Neophyte: In the next execution round reduce damage suffered by you by 1.",
 			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of his units unless he spends 1 [M].",
 			"Neophyte: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [S].",
-			"Neophyte: Gain 1 [M] for each Neophyte Hybrid.",
+			"Neophyte: Gain 1 [M] for each Neophyte Hybrid up to a maximum of 2.",
 			"Neophyte: Rally 1 of your units.",
 			"Metamorph: Your opponent chooses and destroys 1 of his units unless he spends 1 [S].",
 			"Metamorph: Choose a Hybrid Metamorph. Increase the health value of that unit in this execution round by 1.",
@@ -84,7 +84,7 @@
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, if you have 2 or more unrouted Neophyte Hybrids you may discard this card to rout an opponent unit of command level 2 or less.",
 			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat, in the Roll Dice step you may discard this card to have 1 of your opponent command level 0 units to instead roll his combat value for you.",
 			"Place this card in your play area and discard all of your other schemes. At the start of an execution round, if you are attacking you may discard this card to force your opponent to show what card he will play before playing cards. Then gain 1 [B], [S] or [M].",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to place 1 free reinforcement token in the combat area. You may then gain either 1 [D] or 1 [M]."
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of a combat, you may discard this card to place 1 free reinforcement token in this area. You may then gain either 1 [D] or 1 [M]."
 		],
 		"type": [
 			"TACTIC",
