@@ -37,7 +37,7 @@
 			"Neophyte: In the next execution round reduce damage suffered by you by 1.",
 			"Neophyte: If you have more unrouted units than your opponent gain 1 [M]. *newpara* Spend 1 [M] to force your opponent to choose and rout 1 of his units unless he spends 1 [M].",
 			"Neophyte: When an enemy unit is routed during this execution round, it is destroyed unless your opponent spends 1 [S].",
-			"Neophyte: Gain 1 [M] for each Neophyte Hybrid up to a maximum of 2.",
+			"Neophyte: Gain 1 [M] for each unrouted Neophyte Hybrid up to a maximum of 2.",
 			"Neophyte: Rally 1 of your units.",
 			"Metamorph: Your opponent chooses and destroys 1 of his units unless he spends 1 [S].",
 			"Metamorph: Choose a Hybrid Metamorph. Increase the health value of that unit in this execution round by 1.",
