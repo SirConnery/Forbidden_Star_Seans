@@ -81,10 +81,10 @@
 			"Either gain 1 materiel or place 1 free Classified Cruiser in any uncontrolled or friendly void in a system containing your units or structures.",
 			"You may take 1 of your Custodian Guards from any world and place them on a friendly world containing a structure or a unit.",
 			"Spend 2 materiel to place a free bastion on any friendly world not containing a structure.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to gain 1 (S) at the start of each execution round in this combat.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* In combat after the reinforcement phase, you may discard this card to gain 1 (B) at the start of each execution round in this combat.",
-			"Place this card in your play area and discard all of your other schemes. During the Planning Phase, before placing 1 of your orders you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, you may discard this card to draw 1 combat card for each order token on top of your event deck."
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the end of a reinforce step of combat, you may discard this card to gain 1 (S) at the start of each execution round in this combat.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the end of a reinforce step of combat, you may discard this card to gain 1 (B) at the start of each execution round in this combat.",
+			"Place this card in your play area and discard all of your other schemes. Before placing an order during the Planning Phase, you may discard this card to look at any facedown order on the top of 1 order stack and then place it back facedown on top of that order stack.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round of combat, you may discard this card to draw 1 combat card for each order token on top of your event deck."
 		],
 		"type": [
 			"TACTIC",

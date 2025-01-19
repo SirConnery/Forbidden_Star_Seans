@@ -77,14 +77,14 @@
 			"WARPED TIMELINE"
 		],
 		"general": [
-			"Place this card in your play area and discard all of your other schemes. After the Planning Phase, you may discard this card to reveal 1 of your Strategize orders from your play area and then place it facedown on top of any order stack.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* When a Rubric Marine is destroyed in a world, you may discard this card to place 1 free Rubric Marine in that world.",
-			"Place this card in your play area and discard all of your other schemes. You may discard this card after resolving a combat card to resolve the suffer damage step of this execution round for your opponent now. Resolve the rest of this execution round normally but ignore the suffer damage step for your opponent in this execution round.",
+			"Place this card in your play area and discard all of your other schemes. At the end of the Planning Phase, you may discard this card to reveal 1 of your Strategize orders from your play area and then place it facedown on top of any order stack.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* When a Rubric Marine is destroyed during a combat on a world, you may discard this card to place 1 free Rubric Marine on that world.",
+			"Place this card in your play area and discard all of your other schemes. After resolving any of your combat cards, you may discard this card to resolve the suffer damage step of this execution round for your opponent now. Resolve the rest of this execution round normally but ignore the suffer damage step for your opponent in this execution round.",
 			"Place this card in your play area and discard all of your other schemes. At the end of a game round, you may discard this card to choose a player, that player gains the first player token at the start of the next game round.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an execution round, you may discard this card to choose an opponent faceup combat card, your opponent draws that combat card into his hand.",
-			"Place this card in your play area and discard all of your other schemes. *newpara* While resolving an advance order, at the start of a combat in a world, you may discard this card to move up to 2 of your units from any one world to that world.",
-			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order in the Operations Phase, you may discard this card to remove 1 of your orders that’s on top of an order stack to place 1 of your orders from your play area in any system not containing an order token.",
-			"Place this card in your play area and discard all of your other schemes. At the start of a combat, you may discard this card to replace 1 pair of combat cards in the opponents combat deck with 1 pair of combat cards of the same command level from his upgrade deck."
+			"Place this card in your play area and discard all of your other schemes. *newpara* At the start of an assess damage step of combat, you may discard this card to choose an opponent faceup combat card. Your opponent draws that combat card into his hand.",
+			"Place this card in your play area and discard all of your other schemes. *newpara* While resolving an Advance Order, at the start of a combat on a world, you may discard this card to move up to 2 of your units from any one world to that world.",
+			"Place this card in your play area and discard all of your other schemes. Instead of revealing an order during the Operations Phase, you may discard this card to remove 1 of your orders that’s on top of an order stack to place 1 of your orders from your play area into any system not containing an order token.",
+			"Place this card in your play area and discard all of your other schemes. At the start of a reinforce step of combat, you may discard this card to replace 1 pair of combat cards in the opponents combat deck with 1 pair of combat cards of the same command level from his upgrade deck."
 		],
 		"type": [
 			"SCHEME",
