@@ -58,11 +58,11 @@
 			"WASTE FEEDS THE VOID"
 		],
 		"general": [
-			"At the end of resolving this order, you may move 1 of your Neophyte Hybrids in the active system into any 1 world in this or an adjacent system that does not contain your objective token. Then rout that unit",
+			"At the end of resolving this order, you may move 1 of your Neophyte Hybrids in the active system into any 1 world in this or an adjacent system that does not contain your objective token. Then rout that unit. *newline* LIMIT ONCE PER ROUND.",
 			"",
 			"",
 			"",
-			"Enemy bastions do not prevent this orbital strike. During this orbital strike, gain 1 extra [D] for each of your ships and ignore dice limit restrictions."
+			"Enemy bastions do not prevent this orbital strike. During this orbital strike, gain 1 extra [D] for each of your ships and ignore dice limit restrictions. *newline* LIMIT ONCE PER ROUND."
 		]
 	},
 	"eventsText": {
