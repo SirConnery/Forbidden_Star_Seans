@@ -18,7 +18,7 @@
 		],
 		"general": [
 			"Gain 1 (S) for each unrouted Hearthkyn Warrior or Bastion Commerce Vessel to a maximum of 3 (S).",
-			"Gain 1 [S]. Increase the health value of all your units during this execution round by 1.",
+			"Gain 1 [S]. *newpara* During this execution round, increase the health value of all your units by 1.",
 			"Spend 1 [S] to place 1 free reinforcement token in this area.",
 			"Gain 1 [B].",
 			"Gain 1 (B). *newpara* At the start of the next execution round gain 2 (B).",
@@ -62,7 +62,7 @@
 			"When you use your dominate ability and purchase a combat card, you may spend a forge token to take a second combat card of the same command level you purchased and place it in your combat deck. Then remove a combat card from your combat deck and place it in the combat upgrade deck. *newline* LIMIT ONCE PER ROUND.",
 			"After you resolve this order, you may move 1 ship in the active system to any adjacent void. This can start a combat. *newline* LIMIT ONCE PER ROUND.",
 			"When you reveal this order token, you may gain 1 forge token. *newline* LIMIT ONCE PER ROUND.",
-			"After you resolve this order, you may spend 2 materiel to place a free bastion in the active system on a friendly world already containing a bastion. *newline* LIMIT ONCE PER ROUND.",
+			"After you resolve this order, you may spend 2 materiel to place a free bastion in the active system on a friendly world already containing a maximum of 1 bastion. *newline* LIMIT ONCE PER ROUND.",
 			"Enemy bastions do not prevent this orbital strike. During this orbital strike, you may spend 2 [S] to choose and destroy 1 structure on this world. *newline* LIMIT ONCE PER ROUND."
 		]
 	},
